@@ -1,0 +1,36 @@
+from hytest import CHECK_POINT, STEP
+from lib.webapi import apimgr
+
+
+def getRetlist():
+    # 获取系统中客户信息
+    r = apimgr.customer_list(1, 1)
+    ret = r.json()
+    retlist = ret['retlist'][0]
+    print('retlist:', retlist)
+    # {'address': '武汉市桥西医院北路', 'id': 284, 'name': '武汉市桥西医院', 'phonenumber': '13345679934'}
+    return retlist
+
+
+class Case_0252:
+    name = '删除客户-API-0252'
+
+    def teststeps(self):
+        address, customerId, name, phonenumber = getRetlist().values()
+        STEP(1, f'删除客户：id为{customerId}')
+        r = apimgr.customer_del(cid=customerId)
+        addRet = r.json()
+        expected = {"ret": 0}
+        # print('expected-----', addRet)
+        CHECK_POINT('返回的ret值=0', addRet == expected)
+
+        STEP(2, '检查系统数据')
+        r = apimgr.customer_list(1, 1)
+        listRet = r.json()
+        expected = {
+            "ret": 0,
+            "retlist": [],
+            'total': 0
+        }
+        CHECK_POINT('返回的消息体数据正确', listRet == expected)
+
