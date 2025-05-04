@@ -142,7 +142,7 @@ class APIMgr:
         self._printResponse(response)
         return response
 
-    def medicine_list(self, pagesize, pagenumber, keywords=None):
+    def medicine_list(self, pagesize=None, pagenumber=None, keywords=None):
         INFO('列出药品')
         response = self.s.get("http://127.0.0.1/api/mgr/medicines",
                               params={

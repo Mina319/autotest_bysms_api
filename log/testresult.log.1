@@ -75,7 +75,7 @@
 
 
 
-  ========= 测试开始 : 20250504_195420 =========
+  ========= 测试开始 : 20250504_222528 =========
 
 
 
@@ -86,8 +86,8 @@
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Set-Cookie: sessionid=x7d309ehctypfg1nm9laiqd4bzvrqhcf; Path=/; Max-Age=1209600; HttpOnly
-Date: Sun, 04 May 2025 11:54:20 GMT
+Set-Cookie: sessionid=eat2g8ymks9u9gmaleitx2cnj5wvkndf; Path=/; Max-Age=1209600; HttpOnly
+Date: Sun, 04 May 2025 14:25:28 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -99,7 +99,7 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Sun, 04 May 2025 11:54:20 GMT
+Date: Sun, 04 May 2025 14:25:28 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -111,7 +111,7 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Sun, 04 May 2025 11:54:20 GMT
+Date: Sun, 04 May 2025 14:25:28 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -123,7 +123,7 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Sun, 04 May 2025 11:54:20 GMT
+Date: Sun, 04 May 2025 14:25:28 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -133,49 +133,53 @@ Content-Length: 32
 
 >>> cases\blank_env\medicineAPI\listMedicine.py
 
-* 列出药品-API-0302  -  2025-05-04 19:54:20
+* 列出药品-API-0306  -  2025-05-04 22:25:28
 
   [ case execution steps ]
 
--- 第 1 步 -- 尝试列出药品，没有携带有效的sessionid 
+-- 第 1 步 -- 列出药品 
 
 列出药品
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Sun, 04 May 2025 11:54:20 GMT
+Date: Sun, 04 May 2025 14:25:28 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
 -------- HTTP response * end -------
 
 返回状态码是200
+listRet:{'ret': 0, 'retlist': [], 'total': 0}
 
-** 检查点 **  检查状态码 ---->  通过
+** 检查点 **  返回的消息体数据正确 ---->  !! 不通过!!
 
-listRet{'ret': 0, 'retlist': [], 'total': 0}
+  FAIL    
+Traceback:
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\medicineAPI\listMedicine.py", line 112, in teststeps
+    CHECK_POINT('返回的消息体数据正确', listRet == expected)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
+    raise AssertionError()
+AssertionError
 
-** 检查点 **  返回的消息体数据正确 ---->  通过
-
-  PASS 
 
 [ suite teardown ] cases\blank_env\
 
 
-  ========= 测试结束 : 20250504_195420 =========
+  ========= 测试结束 : 20250504_222528 =========
 
 
-  耗时    : 0.055 秒
+  耗时    : 0.063 秒
 
 
   预备执行用例数量 : 1
 
   实际执行用例数量 : 1
 
-  通过 : 1
+  通过 : 0
 
-  失败 : 0
+  失败 : 1
 
   异常 : 0
 

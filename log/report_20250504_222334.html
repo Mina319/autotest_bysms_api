@@ -309,15 +309,15 @@ function next_error(){
             </tr>
             <tr>
               <td>开始时间</td>
-              <td>2025/05/04 19:37:44</td>
+              <td>2025/05/04 22:23:34</td>
             </tr>
             <tr>
               <td>结束时间</td>
-              <td>2025/05/04 19:37:44</td>
+              <td>2025/05/04 22:23:34</td>
             </tr>
             <tr>
               <td>耗时</td>
-              <td>0.048 秒</td>
+              <td>0.052 秒</td>
             </tr>
             <tr>
               <td>预备执行用例数量</td>
@@ -329,7 +329,7 @@ function next_error(){
             </tr>
             <tr>
               <td>通过</td>
-              <td>1</td>
+              <td>0</td>
             </tr>
             <tr>
               <td>失败</td>
@@ -337,7 +337,7 @@ function next_error(){
             </tr>
             <tr>
               <td>异常</td>
-              <td style="">0</td>
+              <td style="color:red">1</td>
             </tr>
             <tr>
               <td>阻塞</td>
@@ -363,9 +363,9 @@ function next_error(){
         </table>
         <div class="result_barchart">
           <div class="barchar_item">
-            <span>用例通过 100% ： 1 个</span>
+            <span>用例通过 0% ： 0 个</span>
             <div class="barchart_barbox">
-              <div class="barchart_bar" style="width: 100.0%; background-color: #04AA6D;"></div>
+              <div class="barchart_bar" style="width: 0.0%; background-color: #04AA6D;"></div>
             </div>
           </div>
           <div class="barchar_item">
@@ -375,9 +375,9 @@ function next_error(){
             </div>
           </div>
           <div class="barchar_item">
-            <span>用例异常 0% ： 0 个</span>
+            <span>用例异常 100% ： 1 个</span>
             <div class="barchart_barbox">
-              <div class="barchart_bar" style="width: 0.0%; background-color: #9c27b0;"></div>
+              <div class="barchart_bar" style="width: 100.0%; background-color: #9c27b0;"></div>
             </div>
           </div>
           <div class="barchar_item">
@@ -401,15 +401,15 @@ function next_error(){
             <div class="folder_header">
               <span class="label">套件初始化</span>
               <span>cases\blank_env\</span>
-              <span class="executetime">2025-05-04 19:37:44</span>
+              <span class="executetime">2025-05-04 22:23:34</span>
             </div>
             <div class="folder_body">
               <div class="info">
 -------- HTTP response * begin -------</div>
               <div class="info">200</div>
               <div class="info">Content-Type: application/json; charset=utf-8</div>
-              <div class="info">Set-Cookie: sessionid=04fgkz6bvec5f83tm59l4aul49rh6e6k; Path=/; Max-Age=1209600; HttpOnly</div>
-              <div class="info">Date: Sun, 04 May 2025 11:37:44 GMT</div>
+              <div class="info">Set-Cookie: sessionid=ftszwmsa8vzjiy3xtui7mfxrajdhj992; Path=/; Max-Age=1209600; HttpOnly</div>
+              <div class="info">Date: Sun, 04 May 2025 14:23:34 GMT</div>
               <div class="info">Content-Length: 9</div>
               <div class="info"></div>
               <div class="info">{&quot;ret&quot;:0}</div>
@@ -421,7 +421,7 @@ function next_error(){
 -------- HTTP response * begin -------</div>
               <div class="info">200</div>
               <div class="info">Content-Type: application/json; charset=utf-8</div>
-              <div class="info">Date: Sun, 04 May 2025 11:37:44 GMT</div>
+              <div class="info">Date: Sun, 04 May 2025 14:23:34 GMT</div>
               <div class="info">Content-Length: 32</div>
               <div class="info"></div>
               <div class="info">{&quot;ret&quot;:0,&quot;retlist&quot;:[],&quot;total&quot;:0}</div>
@@ -433,7 +433,7 @@ function next_error(){
 -------- HTTP response * begin -------</div>
               <div class="info">200</div>
               <div class="info">Content-Type: application/json; charset=utf-8</div>
-              <div class="info">Date: Sun, 04 May 2025 11:37:44 GMT</div>
+              <div class="info">Date: Sun, 04 May 2025 14:23:34 GMT</div>
               <div class="info">Content-Length: 32</div>
               <div class="info"></div>
               <div class="info">{&quot;ret&quot;:0,&quot;retlist&quot;:[],&quot;total&quot;:0}</div>
@@ -445,7 +445,7 @@ function next_error(){
 -------- HTTP response * begin -------</div>
               <div class="info">200</div>
               <div class="info">Content-Type: application/json; charset=utf-8</div>
-              <div class="info">Date: Sun, 04 May 2025 11:37:44 GMT</div>
+              <div class="info">Date: Sun, 04 May 2025 14:23:34 GMT</div>
               <div class="info">Content-Length: 32</div>
               <div class="info"></div>
               <div class="info">{&quot;ret&quot;:0,&quot;retlist&quot;:[],&quot;total&quot;:0}</div>
@@ -454,42 +454,32 @@ function next_error(){
             </div>
           </div>
         </div>
-        <div class="suite_file" id="suite_file cases\blank_env\customerAPI\listCustomer.py">
+        <div class="suite_file" id="suite_file cases\blank_env\medicineAPI\listMedicine.py">
           <div>
             <span class="label">进入文件</span>
-            <span>cases\blank_env\customerAPI\listCustomer.py</span>
+            <span>cases\blank_env\medicineAPI\listMedicine.py</span>
           </div>
-          <div class="case pass" id="case_00000001">
+          <div class="case abort" id="case_00000001">
             <div class="folder_header">
-              <span class="label caselabel">用例 PASS</span>
-              <span class="casename">列出客户-API-0101</span>
-              <span class="executetime">2025-05-04 19:37:44</span>
+              <span class="label caselabel">用例 ABORT</span>
+              <span class="casename">列出药品-API-0305</span>
+              <span class="executetime">2025-05-04 22:23:34</span>
             </div>
             <div class="folder_body">
-              <span class="case_class_path">cases\blank_env\customerAPI\listCustomer.py::Case_0101</span>
-              <div class="test_steps" id="test_steps 列出客户-API-0101">
+              <span class="case_class_path">cases\blank_env\medicineAPI\listMedicine.py::Case_0305</span>
+              <div class="test_steps" id="test_steps 列出药品-API-0305">
                 <span class="label">测试步骤</span>
                 <div class="case_step">
                   <span class="tag">步骤 #1</span>
-                  <span>尝试列出客户，没有携带有效的sessionid</span>
+                  <span>列出药品</span>
                 </div>
-                <div class="info">列出客户</div>
-                <div class="info">
--------- HTTP response * begin -------</div>
-                <div class="info">307</div>
-                <div class="info">Content-Type: application/json; charset=utf-8</div>
-                <div class="info">Date: Sun, 04 May 2025 11:37:44 GMT</div>
-                <div class="info">Content-Length: 57</div>
-                <div class="info"></div>
-                <div class="info">{&quot;msg&quot;:&quot;未登录&quot;,&quot;redirect&quot;:&quot;/mgr/sign.html&quot;,&quot;ret&quot;:302}</div>
-                <div class="info">-------- HTTP response * end -------
+                <div class="info error-info">APIMgr.medicine_list() missing 1 required positional argument: 'pagenumber' 
+Traceback:
+  File &quot;D:\tools\projects\autotest_bysms\cases\blank_env\medicineAPI\listMedicine.py&quot;, line 84, in teststeps
+    r = apimgr.medicine_list(pagesize=10)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: APIMgr.medicine_list() missing 1 required positional argument: 'pagenumber'
 </div>
-                <div class="info">返回状态码是307</div>
-                <div class="info">listRet{'msg': '未登录', 'redirect': '/mgr/sign.html', 'ret': 302}</div>
-                <div class="checkpoint_pass">
-                  <span class="tag">检查点 PASS</span>
-                  <span>返回的消息体数据正确</span>
-                </div>
               </div>
             </div>
           </div>
@@ -497,7 +487,7 @@ function next_error(){
             <div class="folder_header">
               <span class="label">套件清除</span>
               <span>cases\blank_env\</span>
-              <span class="executetime">2025-05-04 19:37:44</span>
+              <span class="executetime">2025-05-04 22:23:34</span>
             </div>
             <div class="folder_body"></div>
           </div>
@@ -508,7 +498,7 @@ function next_error(){
       <div class="menu-item" onclick="document.querySelector(&quot;body&quot;).scrollIntoView()">页首</div>
       <div class="menu-item" onclick="window.open(&quot;http://www.byhy.net/tut/auto/hytest/01&quot;, &quot;_blank&quot;); ">帮助</div>
       <div class="menu-item" id="display_mode" onclick="toggle_folder_all_cases()">Summary</div>
-      <div class="error_jumper" display="none">
+      <div class="error_jumper" display="block">
         <div class="menu-item" onclick="previous_error()" title="上一个错误">∧</div>
         <div class="menu-item" onclick="next_error()" title="下一个错误">∨</div>
       </div>
