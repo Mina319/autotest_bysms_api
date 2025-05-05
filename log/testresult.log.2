@@ -3,53 +3,38 @@
 ===   [ 收集测试用例 ]  === 
 
 
+== cases\__st__.py 
+
+
 == cases\blank_env\__st__.py 
 
 
 == cases\blank_env\loginAPI.py 
 
 
-** no cases in this file , skip it.
-
 == cases\blank_env\customerAPI\addCustomer.py 
 
-
-** no cases in this file , skip it.
 
 == cases\blank_env\customerAPI\delCustomer.py 
 
 
-** no cases in this file , skip it.
-
 == cases\blank_env\customerAPI\listCustomer.py 
 
-
-** no cases in this file , skip it.
 
 == cases\blank_env\customerAPI\modifyCustomer.py 
 
 
-** no cases in this file , skip it.
-
 == cases\blank_env\medicineAPI\addMedicine.py 
 
-
-** no cases in this file , skip it.
 
 == cases\blank_env\medicineAPI\delMedicine.py 
 
 
-** no cases in this file , skip it.
-
 == cases\blank_env\medicineAPI\listMedicine.py 
 
 
-** no cases in this file , skip it.
-
 == cases\blank_env\medicineAPI\modifyMedicine.py 
 
-
-** no cases in this file , skip it.
 
 == cases\blank_env\oneCustomer_env\__st__.py 
 
@@ -57,12 +42,8 @@
 == cases\blank_env\oneCustomer_env\delCustomer.py 
 
 
-** no cases in this file , skip it.
-
 == cases\blank_env\oneCustomer_env\modifyCustomer.py 
 
-
-** no cases in this file , skip it.
 
 == cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\__st__.py 
 
@@ -76,20 +57,14 @@
 == cases\blank_env\oneCustomer_env\twoCustomers_env\modifyCustomer.py 
 
 
-** no cases in this file , skip it.
-
 == cases\blank_env\oneCustomer_env\twoCustomers_env\tenCustomers_env\__st__.py 
 
 
 == cases\blank_env\oneCustomer_env\twoCustomers_env\tenCustomers_env\addCustomer.py 
 
 
-** no cases in this file , skip it.
-
 == cases\blank_env\oneCustomer_env\twoCustomers_env\tenCustomers_env\listCustomer.py 
 
-
-** no cases in this file , skip it.
 
 == cases\blank_env\oneMedicine_env\__st__.py 
 
@@ -97,12 +72,8 @@
 == cases\blank_env\oneMedicine_env\delMedicine.py 
 
 
-** no cases in this file , skip it.
-
 == cases\blank_env\oneMedicine_env\modifyMedicine.py 
 
-
-** no cases in this file , skip it.
 
 == cases\blank_env\oneMedicine_env\twoMedicine_env\__st__.py 
 
@@ -110,17 +81,20 @@
 == cases\blank_env\oneMedicine_env\twoMedicine_env\modifyMedicine.py 
 
 
-** no cases in this file , skip it.
-
 
 ===   [ 执行测试用例 ]  === 
 
-预备执行用例数量 : 1
+预备执行用例数量 : 63
 
 
 
-  ========= 测试开始 : 20250505_212854 =========
+  ========= 测试开始 : 20250505_214540 =========
 
+
+
+>>> cases\
+
+[ suite setup ] cases\
 
 
 >>> cases\blank_env\
@@ -130,8 +104,8 @@
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Set-Cookie: sessionid=wz42c5lhtvuh2c6u9ken3i4v2lz5rdbm; Path=/; Max-Age=1209600; HttpOnly
-Date: Mon, 05 May 2025 13:28:54 GMT
+Set-Cookie: sessionid=nvey2sqdiesrmpzetq1o4ns9bltvyyl9; Path=/; Max-Age=1209600; HttpOnly
+Date: Mon, 05 May 2025 13:45:40 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -143,7 +117,7 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:28:54 GMT
+Date: Mon, 05 May 2025 13:45:40 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -155,7 +129,7 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:28:54 GMT
+Date: Mon, 05 May 2025 13:45:40 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -167,18 +141,18 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:28:54 GMT
+Date: Mon, 05 May 2025 13:45:40 GMT
 Content-Length: 112
 
-{"ret":0,"retlist":[{"desc":"青霉素 国字号1","id":119,"name":"青霉素1","sn":"099877883801"}],"total":1}
+{"ret":0,"retlist":[{"desc":"青霉素 国字号1","id":122,"name":"青霉素1","sn":"099877883801"}],"total":1}
 -------- HTTP response * end -------
 
-删除药品：id=119
+删除药品：id=122
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:28:54 GMT
+Date: Mon, 05 May 2025 13:45:40 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -186,104 +160,36 @@ Content-Length: 9
 
 
 
->>> cases\blank_env\oneCustomer_env\
+>>> cases\blank_env\loginAPI.py
 
-[ suite setup ] cases\blank_env\oneCustomer_env\
-添加客户
+* 登录-0001  -  2025-05-05 21:45:40
 
--------- HTTP response * begin -------
-200
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:28:54 GMT
-Content-Length: 18
+  [ case execution steps ]
 
-{"id":529,"ret":0}
--------- HTTP response * end -------
+-- 第 1 步 -- 登录系统 
 
-
-
->>> cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\
-
-[ suite setup ] cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\
-添加药品
+登录系统
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:28:54 GMT
-Content-Length: 18
+Set-Cookie: sessionid=89c3nzahzvycqpdezi8wmtg8inruxap4; Path=/; Max-Age=1209600; HttpOnly
+Date: Mon, 05 May 2025 13:45:40 GMT
+Content-Length: 9
 
-{"id":120,"ret":0}
+{"ret":0}
 -------- HTTP response * end -------
 
-suite setup fail | 'Response' object is not subscriptable 
+
+** 检查点 **  检查返回值 ---->  通过
+
+  PASS 
+  ABORT   '01' 
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\__st__.py", line 20, in suite_setup
-    mid = r["id"]
-          ~^^^^^^
-TypeError: 'Response' object is not subscriptable
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\utils\signal.py", line 16, in _broadcast
+    method(*arg,**kargs)
+  File "D:\tools\projects\autotest_bysms\cases\__st__.py", line 58, in case_result
+    cell = self.sheet.Cells(self.caseNum2Row[caseNo], self.TEST_RET_COL_NO)
+                            ~~~~~~~~~~~~~~~~^^^^^^^^
+KeyError: '01'
 
-
-[ suite teardown ] cases\blank_env\oneCustomer_env\
-删除所有订单
-列出订单
-
--------- HTTP response * begin -------
-200
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:28:54 GMT
-Content-Length: 32
-
-{"ret":0,"retlist":[],"total":0}
--------- HTTP response * end -------
-
-删除所有客户
-列出客户
-
--------- HTTP response * begin -------
-200
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:28:54 GMT
-Content-Length: 143
-
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":529,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
--------- HTTP response * end -------
-
-删除客户：id=529
-
--------- HTTP response * begin -------
-200
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:28:54 GMT
-Content-Length: 9
-
-{"ret":0}
--------- HTTP response * end -------
-
-
-[ suite teardown ] cases\blank_env\
-
-
-  ========= 测试结束 : 20250505_212854 =========
-
-
-  耗时    : 0.092 秒
-
-
-  预备执行用例数量 : 1
-
-  实际执行用例数量 : 0
-
-  通过 : 0
-
-  失败 : 0
-
-  异常 : 0
-
-  套件初始化失败 : 1
-
-  套件清除  失败 : 0
-
-  用例初始化失败 : 0
-
-  用例清除  失败 : 0
