@@ -256,5 +256,21 @@ class APIMgr:
         for one in theList:
             self.order_del(one['id'])
 
+    def order_add(self, name=None, customerid=None, medicinelist=None):
+        INFO('添加订单')
+        data = {}
+        if name is not None:
+            data["name"] = name
+        if customerid is not None:
+            data["customerid"] = customerid
+        if medicinelist is not None:
+            data["medicinelist"] = medicinelist
+
+        response = self.s.post("http://127.0.0.1/api/mgr/orders",
+                               json={
+                                   "action": "add_order",
+                                   "data": data})
+        self._printResponse(response)
+        return response
 
 apimgr = APIMgr()

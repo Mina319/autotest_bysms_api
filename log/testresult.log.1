@@ -64,6 +64,12 @@
 
 ** no cases in this file , skip it.
 
+== cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\__st__.py 
+
+
+== cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\delCustomer.py 
+
+
 == cases\blank_env\oneCustomer_env\twoCustomers_env\__st__.py 
 
 
@@ -104,6 +110,8 @@
 == cases\blank_env\oneMedicine_env\twoMedicine_env\modifyMedicine.py 
 
 
+** no cases in this file , skip it.
+
 
 ===   [ 执行测试用例 ]  === 
 
@@ -111,7 +119,7 @@
 
 
 
-  ========= 测试开始 : 20250505_205303 =========
+  ========= 测试开始 : 20250505_213106 =========
 
 
 
@@ -122,8 +130,8 @@
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Set-Cookie: sessionid=aidibkrhwr0b84bk391d8z1qgdjzlnyx; Path=/; Max-Age=1209600; HttpOnly
-Date: Mon, 05 May 2025 12:53:03 GMT
+Set-Cookie: sessionid=gv2j1y7ibjb2nv86uarfyvqxbc5rvo7y; Path=/; Max-Age=1209600; HttpOnly
+Date: Mon, 05 May 2025 13:31:06 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -135,7 +143,7 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 12:53:03 GMT
+Date: Mon, 05 May 2025 13:31:06 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -147,7 +155,7 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 12:53:03 GMT
+Date: Mon, 05 May 2025 13:31:06 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -159,135 +167,94 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 12:53:03 GMT
-Content-Length: 32
-
-{"ret":0,"retlist":[],"total":0}
--------- HTTP response * end -------
-
-
-
->>> cases\blank_env\oneMedicine_env\
-
-[ suite setup ] cases\blank_env\oneMedicine_env\
-添加药品
-
--------- HTTP response * begin -------
-200
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 12:53:03 GMT
-Content-Length: 18
-
-{"id":115,"ret":0}
--------- HTTP response * end -------
-
-
-
->>> cases\blank_env\oneMedicine_env\twoMedicine_env\
-
-[ suite setup ] cases\blank_env\oneMedicine_env\twoMedicine_env\
-添加药品
-
--------- HTTP response * begin -------
-200
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 12:53:03 GMT
-Content-Length: 18
-
-{"id":116,"ret":0}
--------- HTTP response * end -------
-
-
-
->>> cases\blank_env\oneMedicine_env\twoMedicine_env\modifyMedicine.py
-
-* 修改药品-API-0409  -  2025-05-05 20:53:03
-
-  [ case execution steps ]
-
--- 第 1 步 -- 获取修改药品的ID 
-
-列出药品
-
--------- HTTP response * begin -------
-200
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 12:53:03 GMT
+Date: Mon, 05 May 2025 13:31:06 GMT
 Content-Length: 112
 
-{"ret":0,"retlist":[{"desc":"青霉素 国字号2","id":116,"name":"青霉素2","sn":"099877883802"}],"total":2}
+{"ret":0,"retlist":[{"desc":"青霉素 国字号1","id":120,"name":"青霉素1","sn":"099877883801"}],"total":1}
 -------- HTTP response * end -------
 
-
--- 第 2 步 -- 修改药品:修改药品与已经存在的一样 
-
-修改客户
+删除药品：id=120
 
 -------- HTTP response * begin -------
-400
+200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 12:53:03 GMT
-Content-Length: 39
+Date: Mon, 05 May 2025 13:31:06 GMT
+Content-Length: 9
 
-{"msg":"customer id not exist","ret":2}
+{"ret":0}
 -------- HTTP response * end -------
 
 
-** 检查点 **  返回的ret值=1 ---->  !! 不通过!!
 
-  FAIL    
+>>> cases\blank_env\oneCustomer_env\
+
+[ suite setup ] cases\blank_env\oneCustomer_env\
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 13:31:06 GMT
+Content-Length: 18
+
+{"id":530,"ret":0}
+-------- HTTP response * end -------
+
+
+
+>>> cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\
+
+[ suite setup ] cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\
+添加药品
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 13:31:06 GMT
+Content-Length: 18
+
+{"id":121,"ret":0}
+-------- HTTP response * end -------
+
+suite setup fail | 'Response' object is not subscriptable 
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\oneMedicine_env\twoMedicine_env\modifyMedicine.py", line 29, in teststeps
-    CHECK_POINT('返回的ret值=1', addRet == expected)
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
-    raise AssertionError()
-AssertionError
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\__st__.py", line 20, in suite_setup
+    mid = r["id"]
+          ~^^^^^^
+TypeError: 'Response' object is not subscriptable
 
 
-[ suite teardown ] cases\blank_env\oneMedicine_env\twoMedicine_env\
-
-[ suite teardown ] cases\blank_env\oneMedicine_env\
+[ suite teardown ] cases\blank_env\oneCustomer_env\
 删除所有订单
 列出订单
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 12:53:03 GMT
+Date: Mon, 05 May 2025 13:31:06 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
 -------- HTTP response * end -------
 
-所有药品
-列出药品
+删除所有客户
+列出客户
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 12:53:03 GMT
-Content-Length: 193
+Date: Mon, 05 May 2025 13:31:06 GMT
+Content-Length: 143
 
-{"ret":0,"retlist":[{"desc":"青霉素 国字号2","id":116,"name":"青霉素2","sn":"099877883802"},{"desc":"青霉素 国字号1","id":115,"name":"青霉素1","sn":"099877883801"}],"total":2}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":530,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
-删除药品：id=116
+删除客户：id=530
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 12:53:03 GMT
-Content-Length: 9
-
-{"ret":0}
--------- HTTP response * end -------
-
-删除药品：id=115
-
--------- HTTP response * begin -------
-200
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 12:53:03 GMT
+Date: Mon, 05 May 2025 13:31:06 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -297,23 +264,23 @@ Content-Length: 9
 [ suite teardown ] cases\blank_env\
 
 
-  ========= 测试结束 : 20250505_205303 =========
+  ========= 测试结束 : 20250505_213106 =========
 
 
-  耗时    : 0.114 秒
+  耗时    : 0.128 秒
 
 
   预备执行用例数量 : 1
 
-  实际执行用例数量 : 1
+  实际执行用例数量 : 0
 
   通过 : 0
 
-  失败 : 1
+  失败 : 0
 
   异常 : 0
 
-  套件初始化失败 : 0
+  套件初始化失败 : 1
 
   套件清除  失败 : 0
 
