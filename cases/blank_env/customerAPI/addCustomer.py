@@ -3,6 +3,11 @@ from hytest import CHECK_POINT, STEP
 from lib.webapi import apimgr
 
 
+def suite_teardown():
+    # 删除所有客户
+    apimgr.customer_del_all()
+
+
 class Case_0151:
     name = '添加客户-API-0151'
 

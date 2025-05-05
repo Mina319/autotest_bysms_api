@@ -47,6 +47,7 @@ class Case_0103:
 
     def teststeps(self):
         STEP(1, '列出客户')
+
         r = apimgr.customer_list(10, 'hello', '')
         INFO(f'状态码:{r.status_code}')   # 400
         # CHECK_POINT('检查状态码', r.status_code == 302)
@@ -83,7 +84,7 @@ class Case_0105:
 
     def teststeps(self):
         STEP(1, '列出客户')
-        r = apimgr.customer_list(pagesize=10, pagenumber=None)
+        r = apimgr.customer_list(pagesize=10)
         INFO(f'状态码:{r.status_code}')    # 200
         # 验证返回体
         listRet = r.json()
@@ -101,7 +102,7 @@ class Case_0106:
 
     def teststeps(self):
         STEP(1, '列出客户')
-        r = apimgr.customer_list(pagesize=None, pagenumber=1)
+        r = apimgr.customer_list(pagenumber=1)
         INFO(f'状态码:{r.status_code}')
         # 验证返回体
         listRet = r.json()
@@ -118,7 +119,7 @@ class Case_0107:
 
     def teststeps(self):
         STEP(1, '列出客户')
-        r = apimgr.customer_list(pagesize=10, pagenumber=1, keywords=None)
+        r = apimgr.customer_list(pagesize=10, pagenumber=1)
         INFO(f'状态码:{r.status_code}')    # 200
         # 验证返回体
         listRet = r.json()

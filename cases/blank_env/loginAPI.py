@@ -41,7 +41,7 @@ class Case_000x:
                     "password": "88888888",
                     "password": "88888888"
                 }''',
-                {"ret": 1, "msg": "参数格式错误"},
+                {"ret": 1, "msg": "参数格式错误"},  # 实际：{"msg":"用户名或者密码错误","ret":1}
                 True
             ]
         }
@@ -54,7 +54,7 @@ class Case_000x:
                     "username": "byhy",
                     "password": "88888888"
                 }''',
-                {"ret": 1, "msg": "参数格式错误"},
+                {"ret": 1, "msg": "参数格式错误"},  # 实际：{"msg":"用户名或者密码错误","ret":1}
                 True
             ]
         }

@@ -25,4 +25,7 @@ def suite_setup():
 
 # 套件清除，只执行一次
 def suite_teardown():
+    # 删除所有订单和药品
+    apimgr.order_del_all()
+    apimgr.medicine_del_all()
     pass

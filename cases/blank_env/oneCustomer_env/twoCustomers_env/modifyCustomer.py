@@ -17,16 +17,18 @@ class Case_0209:
 
     def teststeps(self):
         STEP(1, '获取修改客户的ID')
-        cid = getRetlist()["id"]
+        self.address, self.customerId, self.name1, self.phonenumber = getRetlist().values()
         STEP(2, '修改客户:修改name与已经存在的一样')
-
-        r = apimgr.customer_modify(cid, name='武汉市桥西医院1')
+        r = apimgr.customer_modify(self.customerId, name='武汉市桥西医院1')
         addRet = r.json()
         print('addRet----', addRet)
         expected = {
                     "ret": 1,
                     "msg": "客户名已经存在"
                 }
+        # 用例失败，则将name修改回来
+        if not addRet == expected:
+            apimgr.customer_modify(self.customerId, name=self.name1)
         CHECK_POINT('返回的ret值=1', addRet == expected)
 
         STEP(2, '检查系统数据')
@@ -34,6 +36,7 @@ class Case_0209:
         listRet = r.json()
 
         retlist = []
+        cid = self.customerId
         for i in range(2, 0, -1):
             ele = {}
             ele['address'] = f'武汉市桥西医院北路{i}'
@@ -49,4 +52,6 @@ class Case_0209:
         }
         print('expected----', expected)
         print('listRet----', listRet)
+
         CHECK_POINT('返回的消息体数据正确，未成功修改', listRet == expected)
+

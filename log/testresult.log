@@ -24,18 +24,6 @@
 == cases\blank_env\customerAPI\modifyCustomer.py 
 
 
-== cases\blank_env\medicineAPI\addMedicine.py 
-
-
-== cases\blank_env\medicineAPI\delMedicine.py 
-
-
-== cases\blank_env\medicineAPI\listMedicine.py 
-
-
-== cases\blank_env\medicineAPI\modifyMedicine.py 
-
-
 == cases\blank_env\oneCustomer_env\__st__.py 
 
 
@@ -66,29 +54,14 @@
 == cases\blank_env\oneCustomer_env\twoCustomers_env\tenCustomers_env\listCustomer.py 
 
 
-== cases\blank_env\oneMedicine_env\__st__.py 
-
-
-== cases\blank_env\oneMedicine_env\delMedicine.py 
-
-
-== cases\blank_env\oneMedicine_env\modifyMedicine.py 
-
-
-== cases\blank_env\oneMedicine_env\twoMedicine_env\__st__.py 
-
-
-== cases\blank_env\oneMedicine_env\twoMedicine_env\modifyMedicine.py 
-
-
 
 ===   [ 执行测试用例 ]  === 
 
-预备执行用例数量 : 63
+预备执行用例数量 : 40
 
 
 
-  ========= 测试开始 : 20250505_215008 =========
+  ========= 测试开始 : 20250506_005242 =========
 
 
 
@@ -104,8 +77,8 @@
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Set-Cookie: sessionid=txenchq53nz6nmprn1r4b1olmphhr5wu; Path=/; Max-Age=1209600; HttpOnly
-Date: Mon, 05 May 2025 13:50:08 GMT
+Set-Cookie: sessionid=ga13qn50dmboh57ka2nmzftg9z7xn7os; Path=/; Max-Age=1209600; HttpOnly
+Date: Mon, 05 May 2025 16:52:42 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -117,7 +90,7 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:08 GMT
+Date: Mon, 05 May 2025 16:52:42 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -129,7 +102,7 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:08 GMT
+Date: Mon, 05 May 2025 16:52:42 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -141,7 +114,7 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:08 GMT
+Date: Mon, 05 May 2025 16:52:42 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -151,7 +124,7 @@ Content-Length: 32
 
 >>> cases\blank_env\loginAPI.py
 
-* 登录-0001  -  2025-05-05 21:50:08
+* 登录-0001  -  2025-05-06 00:52:42
 
   [ case execution steps ]
 
@@ -162,8 +135,8 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Set-Cookie: sessionid=1prf095oipzl0uys3fhw5l5fu55va523; Path=/; Max-Age=1209600; HttpOnly
-Date: Mon, 05 May 2025 13:50:08 GMT
+Set-Cookie: sessionid=jm4r6x6wdgtievd6wnj6swgbjw4of48f; Path=/; Max-Age=1209600; HttpOnly
+Date: Mon, 05 May 2025 16:52:42 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -174,7 +147,7 @@ Content-Length: 9
 
   PASS 
 
-* 登录-0002  -  2025-05-05 21:50:09
+* 登录-0002  -  2025-05-06 00:52:42
 
   [ case execution steps ]
 
@@ -185,7 +158,7 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:09 GMT
+Date: Mon, 05 May 2025 16:52:42 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -196,7 +169,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0003  -  2025-05-05 21:50:09
+* 登录-0003  -  2025-05-06 00:52:42
 
   [ case execution steps ]
 
@@ -207,7 +180,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:09 GMT
+Date: Mon, 05 May 2025 16:52:42 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -218,7 +191,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0004  -  2025-05-05 21:50:09
+* 登录-0004  -  2025-05-06 00:52:43
 
   [ case execution steps ]
 
@@ -229,7 +202,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:09 GMT
+Date: Mon, 05 May 2025 16:52:43 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -240,7 +213,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0005  -  2025-05-05 21:50:09
+* 登录-0005  -  2025-05-06 00:52:43
 
   [ case execution steps ]
 
@@ -251,7 +224,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:09 GMT
+Date: Mon, 05 May 2025 16:52:43 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -262,7 +235,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0006  -  2025-05-05 21:50:09
+* 登录-0006  -  2025-05-06 00:52:43
 
   [ case execution steps ]
 
@@ -273,7 +246,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:09 GMT
+Date: Mon, 05 May 2025 16:52:43 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -284,7 +257,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0007  -  2025-05-05 21:50:09
+* 登录-0007  -  2025-05-06 00:52:43
 
   [ case execution steps ]
 
@@ -295,7 +268,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:09 GMT
+Date: Mon, 05 May 2025 16:52:43 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -306,7 +279,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0008  -  2025-05-05 21:50:09
+* 登录-0008  -  2025-05-06 00:52:43
 
   [ case execution steps ]
 
@@ -317,7 +290,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:09 GMT
+Date: Mon, 05 May 2025 16:52:43 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -335,7 +308,7 @@ Traceback:
 AssertionError
 
 
-* 登录-0009  -  2025-05-05 21:50:09
+* 登录-0009  -  2025-05-06 00:52:43
 
   [ case execution steps ]
 
@@ -346,7 +319,7 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:09 GMT
+Date: Mon, 05 May 2025 16:52:43 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -367,7 +340,7 @@ AssertionError
 
 >>> cases\blank_env\customerAPI\addCustomer.py
 
-* 添加客户-API-0151  -  2025-05-05 21:50:10
+* 添加客户-API-0151  -  2025-05-06 00:52:43
 
   [ case execution steps ]
 
@@ -378,10 +351,10 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:43 GMT
 Content-Length: 18
 
-{"id":546,"ret":0}
+{"id":778,"ret":0}
 -------- HTTP response * end -------
 
 
@@ -395,10 +368,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:43 GMT
 Content-Length: 141
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路","id":546,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路","id":778,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":1}
 -------- HTTP response * end -------
 
 
@@ -406,7 +379,7 @@ Content-Length: 141
 
   PASS 
 
-* 添加客户-API-0153  -  2025-05-05 21:50:10
+* 添加客户-API-0153  -  2025-05-06 00:52:43
 
   [ case execution steps ]
 
@@ -417,7 +390,7 @@ Content-Length: 141
 -------- HTTP response * begin -------
 400
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:43 GMT
 Content-Length: 125
 
 {"msg":"req body format error\nKey: 'Body.Data.Name' Error:Field validation for 'Name' failed on the 'required' tag","ret":2}
@@ -434,10 +407,10 @@ Content-Length: 125
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:43 GMT
 Content-Length: 141
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路","id":546,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路","id":778,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":1}
 -------- HTTP response * end -------
 
 
@@ -445,14 +418,14 @@ Content-Length: 141
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 59, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 64, in teststeps
     CHECK_POINT('返回的消息体数据正确', listRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
 AssertionError
 
 
-* 添加客户-API-0154  -  2025-05-05 21:50:10
+* 添加客户-API-0154  -  2025-05-06 00:52:43
 
   [ case execution steps ]
 
@@ -463,10 +436,10 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:43 GMT
 Content-Length: 18
 
-{"id":547,"ret":0}
+{"id":779,"ret":0}
 -------- HTTP response * end -------
 
 
@@ -474,14 +447,14 @@ Content-Length: 18
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 81, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 86, in teststeps
     CHECK_POINT('返回的ret值', addRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
 AssertionError
 
 
-* 添加客户-API-0155  -  2025-05-05 21:50:10
+* 添加客户-API-0155  -  2025-05-06 00:52:44
 
   [ case execution steps ]
 
@@ -492,7 +465,7 @@ AssertionError
 -------- HTTP response * begin -------
 400
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:44 GMT
 Content-Length: 139
 
 {"msg":"req body format error\nKey: 'Body.Data.Phonenumber' Error:Field validation for 'Phonenumber' failed on the 'required' tag","ret":2}
@@ -509,10 +482,10 @@ Content-Length: 139
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:44 GMT
 Content-Length: 135
 
-{"ret":0,"retlist":[{"address":"南京市鼓楼北路","id":547,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":2}
+{"ret":0,"retlist":[{"address":"南京市鼓楼北路","id":779,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":2}
 -------- HTTP response * end -------
 
 
@@ -520,14 +493,14 @@ Content-Length: 135
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 124, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 129, in teststeps
     CHECK_POINT('返回的消息体数据正确', listRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
 AssertionError
 
 
-* 添加客户-API-0156  -  2025-05-05 21:50:10
+* 添加客户-API-0156  -  2025-05-06 00:52:44
 
   [ case execution steps ]
 
@@ -538,10 +511,10 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:44 GMT
 Content-Length: 18
 
-{"id":548,"ret":0}
+{"id":780,"ret":0}
 -------- HTTP response * end -------
 
 
@@ -549,28 +522,75 @@ Content-Length: 18
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 146, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 151, in teststeps
     CHECK_POINT('返回的ret值', addRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
 AssertionError
 
 
+[ suite teardown ] cases\blank_env\customerAPI\addCustomer.py
+删除所有客户
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 349
+
+{"ret":0,"retlist":[{"address":"南京市鼓楼北路","id":780,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"南京市鼓楼北路","id":779,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"武汉市桥西医院北路","id":778,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":3}
+-------- HTTP response * end -------
+
+删除客户：id=780
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+删除客户：id=779
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+删除客户：id=778
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
 
 >>> cases\blank_env\customerAPI\delCustomer.py
 
-* 删除客户-API-0251  -  2025-05-05 21:50:10
+* 删除客户-API-0251  -  2025-05-06 00:52:44
 
   [ case execution steps ]
 
 -- 第 1 步 -- 删除一个不存在ID的客户 
 
-删除客户：id=100
+删除客户：id=1
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:44 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -591,7 +611,7 @@ AssertionError
 
 >>> cases\blank_env\customerAPI\listCustomer.py
 
-* 列出客户-API-0101  -  2025-05-05 21:50:10
+* 列出客户-API-0101  -  2025-05-06 00:52:44
 
   [ case execution steps ]
 
@@ -602,7 +622,7 @@ AssertionError
 -------- HTTP response * begin -------
 307
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:44 GMT
 Content-Length: 57
 
 {"msg":"未登录","redirect":"/mgr/sign.html","ret":302}
@@ -615,7 +635,7 @@ listRet{'msg': '未登录', 'redirect': '/mgr/sign.html', 'ret': 302}
 
   PASS 
 
-* 列出客户-API-0102  -  2025-05-05 21:50:10
+* 列出客户-API-0102  -  2025-05-06 00:52:44
 
   [ case execution steps ]
 
@@ -626,28 +646,21 @@ listRet{'msg': '未登录', 'redirect': '/mgr/sign.html', 'ret': 302}
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
-Content-Length: 349
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 32
 
-{"ret":0,"retlist":[{"address":"南京市鼓楼北路","id":548,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"南京市鼓楼北路","id":547,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"武汉市桥西医院北路","id":546,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":3}
+{"ret":0,"retlist":[],"total":0}
 -------- HTTP response * end -------
 
 
 ** 检查点 **  检查状态码 ---->  通过
 
 
-** 检查点 **  返回的消息体数据正确 ---->  !! 不通过!!
+** 检查点 **  返回的消息体数据正确 ---->  通过
 
-  FAIL    
-Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\listCustomer.py", line 42, in teststeps
-    CHECK_POINT('返回的消息体数据正确', listRet == expected)
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
-    raise AssertionError()
-AssertionError
+  PASS 
 
-
-* 列出客户-API-0103  -  2025-05-05 21:50:10
+* 列出客户-API-0103  -  2025-05-06 00:52:44
 
   [ case execution steps ]
 
@@ -658,7 +671,7 @@ AssertionError
 -------- HTTP response * begin -------
 400
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:44 GMT
 Content-Length: 35
 
 {"msg":"bad pagenum:hello","ret":2}
@@ -671,14 +684,14 @@ listRet{'msg': 'bad pagenum:hello', 'ret': 2}
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\listCustomer.py", line 60, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\listCustomer.py", line 61, in teststeps
     CHECK_POINT('返回的消息体数据正确', listRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
 AssertionError
 
 
-* 列出客户-API-0104  -  2025-05-05 21:50:10
+* 列出客户-API-0104  -  2025-05-06 00:52:44
 
   [ case execution steps ]
 
@@ -689,7 +702,7 @@ AssertionError
 -------- HTTP response * begin -------
 400
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
+Date: Mon, 05 May 2025 16:52:44 GMT
 Content-Length: 36
 
 {"msg":"bad pagesize:hello","ret":2}
@@ -702,14 +715,14 @@ listRet{'msg': 'bad pagesize:hello', 'ret': 2}
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\listCustomer.py", line 78, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\listCustomer.py", line 79, in teststeps
     CHECK_POINT('返回的消息体数据正确', listRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
 AssertionError
 
 
-* 列出客户-API-0105  -  2025-05-05 21:50:10
+* 列出客户-API-0105  -  2025-05-06 00:52:44
 
   [ case execution steps ]
 
@@ -720,27 +733,27 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
-Content-Length: 349
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 32
 
-{"ret":0,"retlist":[{"address":"南京市鼓楼北路","id":548,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"南京市鼓楼北路","id":547,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"武汉市桥西医院北路","id":546,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":3}
+{"ret":0,"retlist":[],"total":0}
 -------- HTTP response * end -------
 
 状态码:200
-listRet:{'ret': 0, 'retlist': [{'address': '南京市鼓楼北路', 'id': 548, 'name': '武汉市桥西医院', 'phonenumber': '13345679934'}, {'address': '南京市鼓楼北路', 'id': 547, 'name': '武汉市桥西医院', 'phonenumber': '13345679934'}, {'address': '武汉市桥西医院北路', 'id': 546, 'name': '武汉市桥西医院', 'phonenumber': '13345679934'}], 'total': 3}
+listRet:{'ret': 0, 'retlist': [], 'total': 0}
 
 ** 检查点 **  返回的消息体数据正确 ---->  !! 不通过!!
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\listCustomer.py", line 96, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\listCustomer.py", line 97, in teststeps
     CHECK_POINT('返回的消息体数据正确', listRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
 AssertionError
 
 
-* 列出客户-API-0106  -  2025-05-05 21:50:10
+* 列出客户-API-0106  -  2025-05-06 00:52:44
 
   [ case execution steps ]
 
@@ -751,27 +764,27 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
-Content-Length: 135
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 32
 
-{"ret":0,"retlist":[{"address":"南京市鼓楼北路","id":548,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":3}
+{"ret":0,"retlist":[],"total":0}
 -------- HTTP response * end -------
 
 状态码:200
-listRet:{'ret': 0, 'retlist': [{'address': '南京市鼓楼北路', 'id': 548, 'name': '武汉市桥西医院', 'phonenumber': '13345679934'}], 'total': 3}
+listRet:{'ret': 0, 'retlist': [], 'total': 0}
 
 ** 检查点 **  返回的消息体数据正确 ---->  !! 不通过!!
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\listCustomer.py", line 113, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\listCustomer.py", line 114, in teststeps
     CHECK_POINT('返回的消息体数据正确', listRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
 AssertionError
 
 
-* 列出客户-API-0107  -  2025-05-05 21:50:10
+* 列出客户-API-0107  -  2025-05-06 00:52:44
 
   [ case execution steps ]
 
@@ -782,20 +795,20 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:10 GMT
-Content-Length: 349
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 32
 
-{"ret":0,"retlist":[{"address":"南京市鼓楼北路","id":548,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"南京市鼓楼北路","id":547,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"武汉市桥西医院北路","id":546,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":3}
+{"ret":0,"retlist":[],"total":0}
 -------- HTTP response * end -------
 
 状态码:200
-listRet:{'ret': 0, 'retlist': [{'address': '南京市鼓楼北路', 'id': 548, 'name': '武汉市桥西医院', 'phonenumber': '13345679934'}, {'address': '南京市鼓楼北路', 'id': 547, 'name': '武汉市桥西医院', 'phonenumber': '13345679934'}, {'address': '武汉市桥西医院北路', 'id': 546, 'name': '武汉市桥西医院', 'phonenumber': '13345679934'}], 'total': 3}
+listRet:{'ret': 0, 'retlist': [], 'total': 0}
 
 ** 检查点 **  返回的消息体数据正确 ---->  !! 不通过!!
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\listCustomer.py", line 130, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\listCustomer.py", line 131, in teststeps
     CHECK_POINT('返回的消息体数据正确', listRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
@@ -805,7 +818,7 @@ AssertionError
 
 >>> cases\blank_env\customerAPI\modifyCustomer.py
 
-* 修改客户-API-0201  -  2025-05-05 21:50:11
+* 修改客户-API-0201  -  2025-05-06 00:52:44
 
   [ case execution steps ]
 
@@ -816,7 +829,7 @@ AssertionError
 -------- HTTP response * begin -------
 400
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:11 GMT
+Date: Mon, 05 May 2025 16:52:44 GMT
 Content-Length: 39
 
 {"msg":"customer id not exist","ret":2}
@@ -833,42 +846,62 @@ Content-Length: 39
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:11 GMT
-Content-Length: 349
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 32
 
-{"ret":0,"retlist":[{"address":"南京市鼓楼北路","id":548,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"南京市鼓楼北路","id":547,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"武汉市桥西医院北路","id":546,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":3}
+{"ret":0,"retlist":[],"total":0}
 -------- HTTP response * end -------
 
 
-** 检查点 **  返回的消息体数据正确 ---->  !! 不通过!!
+** 检查点 **  返回的消息体数据正确 ---->  通过
 
-  FAIL    
-Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\modifyCustomer.py", line 25, in teststeps
-    CHECK_POINT('返回的消息体数据正确', listRet == expected)
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
-    raise AssertionError()
-AssertionError
+  PASS 
 
 
+>>> cases\blank_env\oneCustomer_env\
 
->>> cases\blank_env\medicineAPI\addMedicine.py
-
-* 添加药品-API-0351  -  2025-05-05 21:50:11
-
-  [ case execution steps ]
-
--- 第 1 步 -- 添加一个药品 
-
-添加药品
+[ suite setup ] cases\blank_env\oneCustomer_env\
+添加客户
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:11 GMT
+Date: Mon, 05 May 2025 16:52:44 GMT
 Content-Length: 18
 
-{"id":127,"ret":0}
+{"id":781,"ret":0}
+-------- HTTP response * end -------
+
+
+
+>>> cases\blank_env\oneCustomer_env\delCustomer.py
+
+* 删除客户-API-0252  -  2025-05-06 00:52:44
+
+  [ case execution steps ]
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":781,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+
+-- 第 1 步 -- 删除客户：id为781 
+
+删除客户：id=781
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 9
+
+{"ret":0}
 -------- HTTP response * end -------
 
 
@@ -877,27 +910,1167 @@ Content-Length: 18
 
 -- 第 2 步 -- 检查系统数据 
 
-列出药品
+列出客户
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 13:50:11 GMT
-Content-Length: 110
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 32
 
-{"ret":0,"retlist":[{"desc":"青霉素 国字号","id":127,"name":"青霉素","sn":"099877883837"}],"total":1}
+{"ret":0,"retlist":[],"total":0}
 -------- HTTP response * end -------
 
 
 ** 检查点 **  返回的消息体数据正确 ---->  通过
 
   PASS 
-  ABORT   'API-0351' 
-Traceback:
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\utils\signal.py", line 16, in _broadcast
-    method(*arg,**kargs)
-  File "D:\tools\projects\autotest_bysms\cases\__st__.py", line 59, in case_result
-    cell = self.sheet.Cells(self.caseNum2Row[caseNo], self.TEST_RET_COL_NO)
-                            ~~~~~~~~~~~~~~~~^^^^^^^^
-KeyError: 'API-0351'
 
+[ case teardown ] 删除客户-API-0252
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:44 GMT
+Content-Length: 18
+
+{"id":782,"ret":0}
+-------- HTTP response * end -------
+
+
+
+>>> cases\blank_env\oneCustomer_env\modifyCustomer.py
+
+* 修改客户-API-0202  -  2025-05-06 00:52:45
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 修改客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的ret值=0 ---->  通过
+
+
+-- 第 2 步 -- 检查系统数据 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 148
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"南京市桥西医院北路","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+[ case teardown ] 修改客户-API-0202
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+* 修改客户-API-0203  -  2025-05-06 00:52:45
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 修改客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的ret值=0 ---->  通过
+
+
+-- 第 2 步 -- 检查系统数据 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13923567443"}],"total":1}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+[ case teardown ] 修改客户-API-0203
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+* 修改客户-API-0204  -  2025-05-06 00:52:45
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 修改客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的ret值=0 ---->  通过
+
+
+-- 第 2 步 -- 检查系统数据 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 139
+
+{"ret":0,"retlist":[{"address":"镇江市桃花坞123号","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+[ case teardown ] 修改客户-API-0204
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+* 修改客户-API-0205  -  2025-05-06 00:52:45
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 修改客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的ret值=0 ---->  通过
+
+
+-- 第 2 步 -- 检查系统数据 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 138
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"镇江市中医院","phonenumber":"1362345887"}],"total":1}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+[ case teardown ] 修改客户-API-0205
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+* 修改客户-API-0206  -  2025-05-06 00:52:45
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 修改客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的ret值=0 ---->  通过
+
+
+-- 第 2 步 -- 检查系统数据 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 135
+
+{"ret":0,"retlist":[{"address":"镇江市桃花坞666号","id":782,"name":"镇江市中医院","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+[ case teardown ] 修改客户-API-0206
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+* 修改客户-API-0207  -  2025-05-06 00:52:45
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 修改客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的ret值=0 ---->  通过
+
+
+-- 第 2 步 -- 检查系统数据 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 138
+
+{"ret":0,"retlist":[{"address":"镇江市桃花坞666号","id":782,"name":"武汉市桥西医院1","phonenumber":"1275678433"}],"total":1}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+[ case teardown ] 修改客户-API-0207
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+* 修改客户-API-0208  -  2025-05-06 00:52:45
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 修改客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的ret值=0 ---->  通过
+
+
+-- 第 2 步 -- 检查系统数据 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 134
+
+{"ret":0,"retlist":[{"address":"镇江市桃花坞666号","id":782,"name":"镇江市中医院","phonenumber":"1275678433"}],"total":1}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+[ case teardown ] 修改客户-API-0208
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+
+>>> cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\
+
+[ suite setup ] cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\
+添加药品
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 18
+
+{"id":143,"ret":0}
+-------- HTTP response * end -------
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+添加订单
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 17
+
+{"id":49,"ret":0}
+-------- HTTP response * end -------
+
+
+
+>>> cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\delCustomer.py
+
+* 删除客户-API-0253  -  2025-05-06 00:52:45
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 删除一个已绑定订单的客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+删除客户：id=782
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 72
+
+{"msg":"删除记录失败，或许需要先删除相关订单","ret":2}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的ret值=2 ---->  通过
+
+
+-- 第 2 步 -- 检查系统数据 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+[ suite teardown ] cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\
+删除所有订单
+列出订单
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 226
+
+{"ret":0,"retlist":[{"create_date":"2025-05-05T16:52:45Z","customer_name":"武汉市桥西医院1","customerid":782,"id":49,"medicinelist":"[{\"id\":143,\"name\":\"青霉素1\",\"amount\":\"5\"}]","name":"订单1"}],"total":1}
+-------- HTTP response * end -------
+
+删除订单：id=49
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+所有药品
+列出药品
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 112
+
+{"ret":0,"retlist":[{"desc":"青霉素 国字号1","id":143,"name":"青霉素1","sn":"099877883801"}],"total":1}
+-------- HTTP response * end -------
+
+删除药品：id=143
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+
+>>> cases\blank_env\oneCustomer_env\twoCustomers_env\
+
+[ suite setup ] cases\blank_env\oneCustomer_env\twoCustomers_env\
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 18
+
+{"id":783,"ret":0}
+-------- HTTP response * end -------
+
+
+
+>>> cases\blank_env\oneCustomer_env\twoCustomers_env\modifyCustomer.py
+
+* 修改客户-API-0209  -  2025-05-06 00:52:45
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 获取修改客户的ID 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 143
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路2","id":783,"name":"武汉市桥西医院2","phonenumber":"13345679902"}],"total":2}
+-------- HTTP response * end -------
+
+
+-- 第 2 步 -- 修改客户:修改name与已经存在的一样 
+
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的ret值=1 ---->  !! 不通过!!
+
+  FAIL    
+Traceback:
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\oneCustomer_env\twoCustomers_env\modifyCustomer.py", line 32, in teststeps
+    CHECK_POINT('返回的ret值=1', addRet == expected)
+  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
+    raise AssertionError()
+AssertionError
+
+
+
+>>> cases\blank_env\oneCustomer_env\twoCustomers_env\tenCustomers_env\
+
+[ suite setup ] cases\blank_env\oneCustomer_env\twoCustomers_env\tenCustomers_env\
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 18
+
+{"id":784,"ret":0}
+-------- HTTP response * end -------
+
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:45 GMT
+Content-Length: 18
+
+{"id":785,"ret":0}
+-------- HTTP response * end -------
+
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 18
+
+{"id":786,"ret":0}
+-------- HTTP response * end -------
+
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 18
+
+{"id":787,"ret":0}
+-------- HTTP response * end -------
+
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 18
+
+{"id":788,"ret":0}
+-------- HTTP response * end -------
+
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 18
+
+{"id":789,"ret":0}
+-------- HTTP response * end -------
+
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 18
+
+{"id":790,"ret":0}
+-------- HTTP response * end -------
+
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 18
+
+{"id":791,"ret":0}
+-------- HTTP response * end -------
+
+
+
+>>> cases\blank_env\oneCustomer_env\twoCustomers_env\tenCustomers_env\addCustomer.py
+
+* 添加客户-API-0152  -  2025-05-06 00:52:46
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 添加一个客户 
+
+添加客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 18
+
+{"id":792,"ret":0}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的ret值=0 ---->  通过
+
+
+-- 第 2 步 -- 检查系统数据 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 1264
+
+{"ret":0,"retlist":[{"address":"南京市桥东医院北路","id":792,"name":"南京市桥东医院","phonenumber":"12245789934"},{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":790,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":789,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":788,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":787,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":786,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":785,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":784,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":783,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":11}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+[ case teardown ] 添加客户-API-0152
+删除客户：id=792
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+
+>>> cases\blank_env\oneCustomer_env\twoCustomers_env\tenCustomers_env\listCustomer.py
+
+* 列出客户-API-0108  -  2025-05-06 00:52:46
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 列出客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 1154
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":790,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":789,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":788,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":787,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":786,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":785,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":784,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":783,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":10}
+-------- HTTP response * end -------
+
+返回状态码是200
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 146
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"}],"total":10}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+* 列出客户-API-0109  -  2025-05-06 00:52:46
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 列出客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 33
+
+{"ret":0,"retlist":[],"total":10}
+-------- HTTP response * end -------
+
+返回状态码是200
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+* 列出客户-API-0110  -  2025-05-06 00:52:46
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 列出客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 33
+
+{"ret":0,"retlist":[],"total":10}
+-------- HTTP response * end -------
+
+返回状态码是200
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+* 列出客户-API-0111  -  2025-05-06 00:52:46
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 列出客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 33
+
+{"ret":0,"retlist":[],"total":10}
+-------- HTTP response * end -------
+
+返回状态码是200
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+* 列出客户-API-0112  -  2025-05-06 00:52:46
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 列出客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 32
+
+{"ret":0,"retlist":[],"total":0}
+-------- HTTP response * end -------
+
+返回状态码是200
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+* 列出客户-API-0113  -  2025-05-06 00:52:46
+
+  [ case execution steps ]
+
+-- 第 1 步 -- 列出客户 
+
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 1154
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":790,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":789,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":788,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":787,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":786,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":785,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":784,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":783,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":10}
+-------- HTTP response * end -------
+
+返回状态码是200
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 146
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"}],"total":10}
+-------- HTTP response * end -------
+
+
+** 检查点 **  返回的消息体数据正确 ---->  通过
+
+  PASS 
+
+[ suite teardown ] cases\blank_env\oneCustomer_env\twoCustomers_env\tenCustomers_env\
+
+[ suite teardown ] cases\blank_env\oneCustomer_env\twoCustomers_env\
+
+[ suite teardown ] cases\blank_env\oneCustomer_env\
+删除所有订单
+列出订单
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 32
+
+{"ret":0,"retlist":[],"total":0}
+-------- HTTP response * end -------
+
+删除所有客户
+列出客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 1154
+
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":790,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":789,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":788,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":787,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":786,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":785,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":784,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":783,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":10}
+-------- HTTP response * end -------
+
+删除客户：id=791
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+删除客户：id=790
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+删除客户：id=789
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+删除客户：id=788
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+删除客户：id=787
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+删除客户：id=786
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+删除客户：id=785
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+删除客户：id=784
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+删除客户：id=783
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+删除客户：id=782
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 May 2025 16:52:46 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
+
+
+[ suite teardown ] cases\blank_env\
+
+[ suite teardown ] cases\
+
+
+  ========= 测试结束 : 20250506_005246 =========
+
+
+  耗时    : 4.151 秒
+
+
+  预备执行用例数量 : 40
+
+  实际执行用例数量 : 40
+
+  通过 : 27
+
+  失败 : 13
+
+  异常 : 0
+
+  套件初始化失败 : 0
+
+  套件清除  失败 : 0
+
+  用例初始化失败 : 0
+
+  用例清除  失败 : 0

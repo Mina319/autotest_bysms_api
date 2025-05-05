@@ -16,9 +16,9 @@ class Case_0252:
     name = '删除客户-API-0252'
 
     def teststeps(self):
-        address, customerId, name, phonenumber = getRetlist().values()
-        STEP(1, f'删除客户：id为{customerId}')
-        r = apimgr.customer_del(cid=customerId)
+        self.address, self.customerId, self.name1, self.phonenumber = getRetlist().values()
+        STEP(1, f'删除客户：id为{self.customerId}')
+        r = apimgr.customer_del(cid=self.customerId)
         addRet = r.json()
         expected = {"ret": 0}
         # print('expected-----', addRet)
@@ -33,4 +33,9 @@ class Case_0252:
             'total': 0
         }
         CHECK_POINT('返回的消息体数据正确', listRet == expected)
+
+    def teardown(self):
+        # 如果用例pass，则将删除的客户添加回来
+        apimgr.customer_add(address=self.address, name=self.name1, phonenumber=self.phonenumber)
+
 
