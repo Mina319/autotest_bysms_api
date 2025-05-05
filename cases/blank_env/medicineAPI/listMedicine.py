@@ -129,4 +129,3 @@ class Case_0307:
                 }
         CHECK_POINT('返回的消息体数据正确', listRet == expected)
 
-

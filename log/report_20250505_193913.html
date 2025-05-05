@@ -309,15 +309,15 @@ function next_error(){
             </tr>
             <tr>
               <td>开始时间</td>
-              <td>2025/05/04 19:54:20</td>
+              <td>2025/05/05 19:39:13</td>
             </tr>
             <tr>
               <td>结束时间</td>
-              <td>2025/05/04 19:54:20</td>
+              <td>2025/05/05 19:39:13</td>
             </tr>
             <tr>
               <td>耗时</td>
-              <td>0.055 秒</td>
+              <td>0.058 秒</td>
             </tr>
             <tr>
               <td>预备执行用例数量</td>
@@ -401,15 +401,15 @@ function next_error(){
             <div class="folder_header">
               <span class="label">套件初始化</span>
               <span>cases\blank_env\</span>
-              <span class="executetime">2025-05-04 19:54:20</span>
+              <span class="executetime">2025-05-05 19:39:13</span>
             </div>
             <div class="folder_body">
               <div class="info">
 -------- HTTP response * begin -------</div>
               <div class="info">200</div>
               <div class="info">Content-Type: application/json; charset=utf-8</div>
-              <div class="info">Set-Cookie: sessionid=x7d309ehctypfg1nm9laiqd4bzvrqhcf; Path=/; Max-Age=1209600; HttpOnly</div>
-              <div class="info">Date: Sun, 04 May 2025 11:54:20 GMT</div>
+              <div class="info">Set-Cookie: sessionid=1qx71yxm7eqlxjltsk5nvfsebqhwdgih; Path=/; Max-Age=1209600; HttpOnly</div>
+              <div class="info">Date: Mon, 05 May 2025 11:39:13 GMT</div>
               <div class="info">Content-Length: 9</div>
               <div class="info"></div>
               <div class="info">{&quot;ret&quot;:0}</div>
@@ -421,7 +421,7 @@ function next_error(){
 -------- HTTP response * begin -------</div>
               <div class="info">200</div>
               <div class="info">Content-Type: application/json; charset=utf-8</div>
-              <div class="info">Date: Sun, 04 May 2025 11:54:20 GMT</div>
+              <div class="info">Date: Mon, 05 May 2025 11:39:13 GMT</div>
               <div class="info">Content-Length: 32</div>
               <div class="info"></div>
               <div class="info">{&quot;ret&quot;:0,&quot;retlist&quot;:[],&quot;total&quot;:0}</div>
@@ -433,7 +433,7 @@ function next_error(){
 -------- HTTP response * begin -------</div>
               <div class="info">200</div>
               <div class="info">Content-Type: application/json; charset=utf-8</div>
-              <div class="info">Date: Sun, 04 May 2025 11:54:20 GMT</div>
+              <div class="info">Date: Mon, 05 May 2025 11:39:13 GMT</div>
               <div class="info">Content-Length: 32</div>
               <div class="info"></div>
               <div class="info">{&quot;ret&quot;:0,&quot;retlist&quot;:[],&quot;total&quot;:0}</div>
@@ -445,7 +445,7 @@ function next_error(){
 -------- HTTP response * begin -------</div>
               <div class="info">200</div>
               <div class="info">Content-Type: application/json; charset=utf-8</div>
-              <div class="info">Date: Sun, 04 May 2025 11:54:20 GMT</div>
+              <div class="info">Date: Mon, 05 May 2025 11:39:13 GMT</div>
               <div class="info">Content-Length: 32</div>
               <div class="info"></div>
               <div class="info">{&quot;ret&quot;:0,&quot;retlist&quot;:[],&quot;total&quot;:0}</div>
@@ -454,42 +454,55 @@ function next_error(){
             </div>
           </div>
         </div>
-        <div class="suite_file" id="suite_file cases\blank_env\medicineAPI\listMedicine.py">
+        <div class="suite_file" id="suite_file cases\blank_env\medicineAPI\addMedicine.py">
           <div>
             <span class="label">进入文件</span>
-            <span>cases\blank_env\medicineAPI\listMedicine.py</span>
+            <span>cases\blank_env\medicineAPI\addMedicine.py</span>
           </div>
           <div class="case pass" id="case_00000001">
             <div class="folder_header">
               <span class="label caselabel">用例 PASS</span>
-              <span class="casename">列出药品-API-0302</span>
-              <span class="executetime">2025-05-04 19:54:20</span>
+              <span class="casename">添加药品-API-0356</span>
+              <span class="executetime">2025-05-05 19:39:13</span>
             </div>
             <div class="folder_body">
-              <span class="case_class_path">cases\blank_env\medicineAPI\listMedicine.py::Case_0302</span>
-              <div class="test_steps" id="test_steps 列出药品-API-0302">
+              <span class="case_class_path">cases\blank_env\medicineAPI\addMedicine.py::Case_0356</span>
+              <div class="test_steps" id="test_steps 添加药品-API-0356">
                 <span class="label">测试步骤</span>
                 <div class="case_step">
                   <span class="tag">步骤 #1</span>
-                  <span>尝试列出药品，没有携带有效的sessionid</span>
+                  <span>添加一个药品</span>
+                </div>
+                <div class="info">添加药品</div>
+                <div class="info">
+-------- HTTP response * begin -------</div>
+                <div class="info">400</div>
+                <div class="info">Content-Type: application/json; charset=utf-8</div>
+                <div class="info">Date: Mon, 05 May 2025 11:39:13 GMT</div>
+                <div class="info">Content-Length: 125</div>
+                <div class="info"></div>
+                <div class="info">{&quot;msg&quot;:&quot;req body format error\njson: cannot unmarshal string into Go struct field Body.data of type apiMgr.Medicine&quot;,&quot;ret&quot;:2}</div>
+                <div class="info">-------- HTTP response * end -------
+</div>
+                <div class="checkpoint_pass">
+                  <span class="tag">检查点 PASS</span>
+                  <span>返回的ret值=2</span>
+                </div>
+                <div class="case_step">
+                  <span class="tag">步骤 #2</span>
+                  <span>检查系统数据</span>
                 </div>
                 <div class="info">列出药品</div>
                 <div class="info">
 -------- HTTP response * begin -------</div>
                 <div class="info">200</div>
                 <div class="info">Content-Type: application/json; charset=utf-8</div>
-                <div class="info">Date: Sun, 04 May 2025 11:54:20 GMT</div>
+                <div class="info">Date: Mon, 05 May 2025 11:39:13 GMT</div>
                 <div class="info">Content-Length: 32</div>
                 <div class="info"></div>
                 <div class="info">{&quot;ret&quot;:0,&quot;retlist&quot;:[],&quot;total&quot;:0}</div>
                 <div class="info">-------- HTTP response * end -------
 </div>
-                <div class="info">返回状态码是200</div>
-                <div class="checkpoint_pass">
-                  <span class="tag">检查点 PASS</span>
-                  <span>检查状态码</span>
-                </div>
-                <div class="info">listRet{'ret': 0, 'retlist': [], 'total': 0}</div>
                 <div class="checkpoint_pass">
                   <span class="tag">检查点 PASS</span>
                   <span>返回的消息体数据正确</span>
@@ -501,7 +514,7 @@ function next_error(){
             <div class="folder_header">
               <span class="label">套件清除</span>
               <span>cases\blank_env\</span>
-              <span class="executetime">2025-05-04 19:54:20</span>
+              <span class="executetime">2025-05-05 19:39:13</span>
             </div>
             <div class="folder_body"></div>
           </div>

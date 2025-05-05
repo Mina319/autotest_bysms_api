@@ -170,6 +170,33 @@ class APIMgr:
         self._printResponse(response)
         return response
 
+    def medicine_add(self, name=None, desc=None, sn=None):
+        INFO('添加药品')
+        data = {}
+        if name is not None:
+            data["name"] = name
+        if desc is not None:
+            data["desc"] = desc
+        if sn is not None:
+            data["sn"] = sn
+        response = self.s.post("http://127.0.0.1/api/mgr/medicines",
+                               json={
+                                   "action": "add_medicine",
+                                   "data": data})
+        self._printResponse(response)
+        return response
+
+    def medicine_add2(self, data):
+        INFO('添加药品')
+        response = self.s.post("http://127.0.0.1/api/mgr/medicines",
+                               json={
+                                   "action": "add_medicine",
+                                   "data": data
+                               })
+        self._printResponse(response)
+        return response
+
+
     def medicine_del_all(self):
         INFO('所有药品')
         response = self.medicine_list(pagesize=100, pagenumber=1)
