@@ -196,6 +196,28 @@ class APIMgr:
         self._printResponse(response)
         return response
 
+    def medicine_modify(self, mid, name=None, desc=None, sn=None):
+        INFO('修改客户')
+
+        newdata = {}
+        if name is not None:
+            newdata["name"] = name
+        if desc is not None:
+            newdata["desc"] = desc
+        if sn is not None:
+            newdata["sn"] = sn
+
+        # 发送请求
+        response = self.s.put("http://127.0.0.1/api/mgr/medicines",
+                              json={
+                                  "action": "modify_medicine",
+                                  "id": mid,
+                                  "newdata": newdata
+                              })
+
+        self._printResponse(response)
+        return response
+
 
     def medicine_del_all(self):
         INFO('所有药品')
