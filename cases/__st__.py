@@ -51,10 +51,6 @@ class MySignalHandler:
             caseNo = case.name.replace('登录', 'API')
         else:
             caseNo = case.name[5:]
-        # elif '管理员操作' in case.name:
-        #     caseNo = case.name.replace('管理员操作', 'UI')
-        # else:
-        #     caseNo = case.name
 
         cell = self.sheet.Cells(self.caseNum2Row[caseNo], self.TEST_RET_COL_NO)
 
