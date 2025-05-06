@@ -1,15 +1,5 @@
 from hytest import CHECK_POINT, STEP
-from lib.webapi import apimgr
-
-
-def getRetlist():
-    # 获取系统中客户信息
-    r = apimgr.customer_list(1, 1)
-    ret = r.json()
-    retlist = ret['retlist'][0]
-    print('retlist:', retlist)
-    # {'address': '武汉市桥西医院北路', 'id': 284, 'name': '武汉市桥西医院', 'phonenumber': '13345679934'}
-    return retlist
+from lib.webapi import apimgr, getRetlist
 
 
 class Case_0209:
@@ -26,9 +16,7 @@ class Case_0209:
                     "ret": 1,
                     "msg": "客户名已经存在"
                 }
-        # 用例失败，则将name修改回来
-        if not addRet == expected:
-            apimgr.customer_modify(self.customerId, name=self.name1)
+
         CHECK_POINT('返回的ret值=1', addRet == expected)
 
         STEP(2, '检查系统数据')
@@ -55,3 +43,6 @@ class Case_0209:
 
         CHECK_POINT('返回的消息体数据正确，未成功修改', listRet == expected)
 
+    def teardown(self):
+        # 无论用例是否失败，都将name修改回来
+        apimgr.customer_modify(self.customerId, name=self.name1)

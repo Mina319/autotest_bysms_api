@@ -3,7 +3,18 @@ from pprint import pprint
 from hytest import INFO
 
 
+def getRetlist():
+    # 获取系统中客户信息
+    r = apimgr.customer_list(1, 1)
+    ret = r.json()
+    retlist = ret['retlist'][0]
+    print('retlist:', retlist)
+    # {'address': '武汉市桥西医院北路', 'id': 284, 'name': '武汉市桥西医院', 'phonenumber': '13345679934'}
+    return retlist
+
+
 class APIMgr:
+    url = "http://127.0.0.1"
 
     def _printResponse(self, response):
         INFO('\n-------- HTTP response * begin -------')
@@ -21,9 +32,9 @@ class APIMgr:
         self.s = requests.Session()
 
         if useProxy:
-            self.s.proxies.update({'http': 'http://127.0.0.1:8888'})
+            self.s.proxies.update({'http': self.url + ':8888'})
 
-        response = self.s.post("http://127.0.0.1/api/mgr/signin",
+        response = self.s.post(self.url + "/api/mgr/signin",
                                data={
                                    'username': username,
                                    'password': password
@@ -35,18 +46,18 @@ class APIMgr:
     def mgr_login1(self, data, raw=False):
         INFO('登录系统')
         if raw:
-            response = self.s.post("http://127.0.0.1/api/mgr/signin",
+            response = self.s.post(self.url + "/api/mgr/signin",
                                    data=data,
                                    headers={'Content-Type': 'application/json'})
         else:
-            response = self.s.post("http://127.0.0.1/api/mgr/signin",
+            response = self.s.post(self.url + "/api/mgr/signin",
                                    data=data)
         self._printResponse(response)
         return response
 
     def customer_list(self, pagesize=None, pagenumber=None, keywords=None):
         INFO('列出客户')
-        response = self.s.get("http://127.0.0.1/api/mgr/customers",
+        response = self.s.get(self.url + "/api/mgr/customers",
                               params={
                                   'action': 'list_customer',
                                   'pagesize': pagesize,
@@ -58,7 +69,7 @@ class APIMgr:
 
     def customer_list1(self, pagesize=10, pagenumber=1, keywords=None, headers=None):
         INFO('列出客户')
-        response = self.s.get("http://127.0.0.1/api/mgr/customers",
+        response = self.s.get(self.url + "/api/mgr/customers",
                               params={
                                   'action': 'list_customer',
                                   'pagesize': pagesize,
@@ -70,7 +81,7 @@ class APIMgr:
 
     def customer_add(self, name, phonenumber, address):
         INFO('添加客户')
-        response = self.s.post("http://127.0.0.1/api/mgr/customers",
+        response = self.s.post(self.url + "/api/mgr/customers",
                                json={
                                    "action": "add_customer",
                                    "data": {
@@ -82,20 +93,16 @@ class APIMgr:
         self._printResponse(response)
         return response
 
-    def customer_add2(self, data):
+    def customer_add_json(self, data):
         INFO('添加客户')
-        # data 是 Python 字典，正常情况
-        response = self.s.post("http://127.0.0.1/api/mgr/customers",
-                               json={
-                                   "action": "add_customer",
-                                   "data": data
-                               })
+        response = self.s.post(self.url + "/api/mgr/customers",
+                               data=data)
         self._printResponse(response)
         return response
 
     def customer_del(self, cid):
         INFO(f'删除客户：id={cid}')
-        response = self.s.delete("http://127.0.0.1/api/mgr/customers",
+        response = self.s.delete(self.url + "/api/mgr/customers",
                                  json={
                                      "action": "del_customer",
                                      "id": cid
@@ -122,7 +129,7 @@ class APIMgr:
             newdata["address"] = address
 
         # 发送请求
-        response = self.s.put("http://127.0.0.1/api/mgr/customers",
+        response = self.s.put(self.url + "/api/mgr/customers",
                               json={
                                   "action": "modify_customer",
                                   "id": id,
@@ -134,7 +141,7 @@ class APIMgr:
 
     def medicine_del(self, mid):
         INFO(f'删除药品：id={mid}')
-        response = self.s.delete("http://127.0.0.1/api/mgr/medicines",
+        response = self.s.delete(self.url + "/api/mgr/medicines",
                                  json={
                                      "action": "del_medicine",
                                      "id": mid
@@ -144,7 +151,7 @@ class APIMgr:
 
     def medicine_list(self, pagesize=None, pagenumber=None, keywords=None):
         INFO('列出药品')
-        response = self.s.get("http://127.0.0.1/api/mgr/medicines",
+        response = self.s.get(self.url + "/api/mgr/medicines",
                               params={
                                   'action': 'list_medicine',
                                   'pagesize': pagesize,
@@ -158,7 +165,7 @@ class APIMgr:
     def medicine_list1(self, pagesize, pagenumber, keywords=None, headers=None):
         INFO('列出药品')
         # 发送请求
-        response = self.s.get("http://127.0.0.1/api/mgr/medicines",
+        response = self.s.get(self.url + "/api/mgr/medicines",
                               params={
                                   'action': 'list_medicine',
                                   'pagesize': pagesize,
@@ -179,7 +186,7 @@ class APIMgr:
             data["desc"] = desc
         if sn is not None:
             data["sn"] = sn
-        response = self.s.post("http://127.0.0.1/api/mgr/medicines",
+        response = self.s.post(self.url + "/api/mgr/medicines",
                                json={
                                    "action": "add_medicine",
                                    "data": data})
@@ -188,7 +195,7 @@ class APIMgr:
 
     def medicine_add2(self, data):
         INFO('添加药品')
-        response = self.s.post("http://127.0.0.1/api/mgr/medicines",
+        response = self.s.post(self.url + "/api/mgr/medicines",
                                json={
                                    "action": "add_medicine",
                                    "data": data
@@ -208,7 +215,7 @@ class APIMgr:
             newdata["sn"] = sn
 
         # 发送请求
-        response = self.s.put("http://127.0.0.1/api/mgr/medicines",
+        response = self.s.put(self.url + "/api/mgr/medicines",
                               json={
                                   "action": "modify_medicine",
                                   "id": mid,
@@ -228,7 +235,7 @@ class APIMgr:
 
     def order_del(self, oid):
         INFO(f'删除订单：id={oid}')
-        response = self.s.delete("http://127.0.0.1/api/mgr/orders",
+        response = self.s.delete(self.url + "/api/mgr/orders",
                                  json={
                                      "action": "delete_order",
                                      "id": oid
@@ -238,7 +245,7 @@ class APIMgr:
 
     def order_list(self, pagesize, pagenumber, keywords=None):
         INFO('列出订单')
-        response = self.s.get("http://127.0.0.1/api/mgr/orders",
+        response = self.s.get(self.url + "/api/mgr/orders",
                               params={
                                   'action': 'list_order',
                                   'pagesize': pagesize,
@@ -266,7 +273,7 @@ class APIMgr:
         if medicinelist is not None:
             data["medicinelist"] = medicinelist
 
-        response = self.s.post("http://127.0.0.1/api/mgr/orders",
+        response = self.s.post(self.url + "/api/mgr/orders",
                                json={
                                    "action": "add_order",
                                    "data": data})

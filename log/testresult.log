@@ -61,7 +61,7 @@
 
 
 
-  ========= 测试开始 : 20250506_005242 =========
+  ========= 测试开始 : 20250506_142941 =========
 
 
 
@@ -77,8 +77,8 @@
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Set-Cookie: sessionid=ga13qn50dmboh57ka2nmzftg9z7xn7os; Path=/; Max-Age=1209600; HttpOnly
-Date: Mon, 05 May 2025 16:52:42 GMT
+Set-Cookie: sessionid=qzulutdvp7gg9g2x6uglnh9tln46dt32; Path=/; Max-Age=1209600; HttpOnly
+Date: Tue, 06 May 2025 06:29:41 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -90,7 +90,7 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:42 GMT
+Date: Tue, 06 May 2025 06:29:41 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -102,7 +102,7 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:42 GMT
+Date: Tue, 06 May 2025 06:29:41 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -114,7 +114,7 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:42 GMT
+Date: Tue, 06 May 2025 06:29:41 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -124,7 +124,7 @@ Content-Length: 32
 
 >>> cases\blank_env\loginAPI.py
 
-* 登录-0001  -  2025-05-06 00:52:42
+* 登录-0001  -  2025-05-06 14:29:41
 
   [ case execution steps ]
 
@@ -135,8 +135,8 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Set-Cookie: sessionid=jm4r6x6wdgtievd6wnj6swgbjw4of48f; Path=/; Max-Age=1209600; HttpOnly
-Date: Mon, 05 May 2025 16:52:42 GMT
+Set-Cookie: sessionid=aubas5y1zhuphjp5zb2cfz32ldfrkcwx; Path=/; Max-Age=1209600; HttpOnly
+Date: Tue, 06 May 2025 06:29:41 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -147,7 +147,7 @@ Content-Length: 9
 
   PASS 
 
-* 登录-0002  -  2025-05-06 00:52:42
+* 登录-0002  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
@@ -158,7 +158,7 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:42 GMT
+Date: Tue, 06 May 2025 06:29:42 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -169,7 +169,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0003  -  2025-05-06 00:52:42
+* 登录-0003  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
@@ -180,7 +180,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:42 GMT
+Date: Tue, 06 May 2025 06:29:42 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -191,7 +191,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0004  -  2025-05-06 00:52:43
+* 登录-0004  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
@@ -202,7 +202,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:43 GMT
+Date: Tue, 06 May 2025 06:29:42 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -213,7 +213,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0005  -  2025-05-06 00:52:43
+* 登录-0005  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
@@ -224,7 +224,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:43 GMT
+Date: Tue, 06 May 2025 06:29:42 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -235,7 +235,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0006  -  2025-05-06 00:52:43
+* 登录-0006  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
@@ -246,7 +246,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:43 GMT
+Date: Tue, 06 May 2025 06:29:42 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -257,7 +257,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0007  -  2025-05-06 00:52:43
+* 登录-0007  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
@@ -268,7 +268,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:43 GMT
+Date: Tue, 06 May 2025 06:29:42 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -279,7 +279,7 @@ Content-Length: 45
 
   PASS 
 
-* 登录-0008  -  2025-05-06 00:52:43
+* 登录-0008  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
@@ -290,7 +290,7 @@ Content-Length: 45
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:43 GMT
+Date: Tue, 06 May 2025 06:29:42 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -308,7 +308,7 @@ Traceback:
 AssertionError
 
 
-* 登录-0009  -  2025-05-06 00:52:43
+* 登录-0009  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
@@ -319,7 +319,7 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:43 GMT
+Date: Tue, 06 May 2025 06:29:42 GMT
 Content-Length: 45
 
 {"msg":"用户名或者密码错误","ret":1}
@@ -340,7 +340,7 @@ AssertionError
 
 >>> cases\blank_env\customerAPI\addCustomer.py
 
-* 添加客户-API-0151  -  2025-05-06 00:52:43
+* 添加客户-API-0151  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
@@ -351,10 +351,10 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:43 GMT
+Date: Tue, 06 May 2025 06:29:42 GMT
 Content-Length: 18
 
-{"id":778,"ret":0}
+{"id":797,"ret":0}
 -------- HTTP response * end -------
 
 
@@ -368,10 +368,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:43 GMT
+Date: Tue, 06 May 2025 06:29:42 GMT
 Content-Length: 141
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路","id":778,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路","id":797,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":1}
 -------- HTTP response * end -------
 
 
@@ -379,53 +379,21 @@ Content-Length: 141
 
   PASS 
 
-* 添加客户-API-0153  -  2025-05-06 00:52:43
+* 添加客户-API-0153  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
 -- 第 1 步 -- 添加一个客户 
 
-添加客户
-
--------- HTTP response * begin -------
-400
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:43 GMT
-Content-Length: 125
-
-{"msg":"req body format error\nKey: 'Body.Data.Name' Error:Field validation for 'Name' failed on the 'required' tag","ret":2}
--------- HTTP response * end -------
-
-
-** 检查点 **  返回的ret值 ---->  通过
-
-
--- 第 2 步 -- 检查系统数据 
-
-列出客户
-
--------- HTTP response * begin -------
-200
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:43 GMT
-Content-Length: 141
-
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路","id":778,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":1}
--------- HTTP response * end -------
-
-
-** 检查点 **  返回的消息体数据正确 ---->  !! 不通过!!
-
-  FAIL    
+  ABORT   'APIMgr' object has no attribute 'customer_add2' 
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 64, in teststeps
-    CHECK_POINT('返回的消息体数据正确', listRet == expected)
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
-    raise AssertionError()
-AssertionError
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 46, in teststeps
+    r = apimgr.customer_add2({"phonenumber": "13345679934",
+        ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'APIMgr' object has no attribute 'customer_add2'. Did you mean: 'customer_add'?
 
 
-* 添加客户-API-0154  -  2025-05-06 00:52:43
+* 添加客户-API-0154  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
@@ -436,10 +404,10 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:43 GMT
+Date: Tue, 06 May 2025 06:29:42 GMT
 Content-Length: 18
 
-{"id":779,"ret":0}
+{"id":798,"ret":0}
 -------- HTTP response * end -------
 
 
@@ -447,60 +415,28 @@ Content-Length: 18
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 86, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 87, in teststeps
     CHECK_POINT('返回的ret值', addRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
 AssertionError
 
 
-* 添加客户-API-0155  -  2025-05-06 00:52:44
+* 添加客户-API-0155  -  2025-05-06 14:29:42
 
   [ case execution steps ]
 
 -- 第 1 步 -- 添加一个客户 
 
-添加客户
-
--------- HTTP response * begin -------
-400
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
-Content-Length: 139
-
-{"msg":"req body format error\nKey: 'Body.Data.Phonenumber' Error:Field validation for 'Phonenumber' failed on the 'required' tag","ret":2}
--------- HTTP response * end -------
-
-
-** 检查点 **  返回的ret值 ---->  通过
-
-
--- 第 2 步 -- 检查系统数据 
-
-列出客户
-
--------- HTTP response * begin -------
-200
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
-Content-Length: 135
-
-{"ret":0,"retlist":[{"address":"南京市鼓楼北路","id":779,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":2}
--------- HTTP response * end -------
-
-
-** 检查点 **  返回的消息体数据正确 ---->  !! 不通过!!
-
-  FAIL    
+  ABORT   'APIMgr' object has no attribute 'customer_add2' 
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 129, in teststeps
-    CHECK_POINT('返回的消息体数据正确', listRet == expected)
-  File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
-    raise AssertionError()
-AssertionError
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 111, in teststeps
+    r = apimgr.customer_add2(data=json.loads(raw_body))
+        ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'APIMgr' object has no attribute 'customer_add2'. Did you mean: 'customer_add'?
 
 
-* 添加客户-API-0156  -  2025-05-06 00:52:44
+* 添加客户-API-0156  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 
@@ -511,10 +447,10 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 18
 
-{"id":780,"ret":0}
+{"id":799,"ret":0}
 -------- HTTP response * end -------
 
 
@@ -522,7 +458,7 @@ Content-Length: 18
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 151, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\customerAPI\addCustomer.py", line 153, in teststeps
     CHECK_POINT('返回的ret值', addRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
@@ -536,40 +472,40 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
-Content-Length: 349
+Date: Tue, 06 May 2025 06:29:43 GMT
+Content-Length: 361
 
-{"ret":0,"retlist":[{"address":"南京市鼓楼北路","id":780,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"南京市鼓楼北路","id":779,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"武汉市桥西医院北路","id":778,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":3}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路","id":799,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"武汉市桥西医院北路","id":798,"name":"武汉市桥西医院","phonenumber":"13345679934"},{"address":"武汉市桥西医院北路","id":797,"name":"武汉市桥西医院","phonenumber":"13345679934"}],"total":3}
 -------- HTTP response * end -------
 
-删除客户：id=780
+删除客户：id=799
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
-删除客户：id=779
+删除客户：id=798
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
-删除客户：id=778
+删除客户：id=797
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -579,7 +515,7 @@ Content-Length: 9
 
 >>> cases\blank_env\customerAPI\delCustomer.py
 
-* 删除客户-API-0251  -  2025-05-06 00:52:44
+* 删除客户-API-0251  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 
@@ -590,7 +526,7 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -611,7 +547,7 @@ AssertionError
 
 >>> cases\blank_env\customerAPI\listCustomer.py
 
-* 列出客户-API-0101  -  2025-05-06 00:52:44
+* 列出客户-API-0101  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 
@@ -622,7 +558,7 @@ AssertionError
 -------- HTTP response * begin -------
 307
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 57
 
 {"msg":"未登录","redirect":"/mgr/sign.html","ret":302}
@@ -635,7 +571,7 @@ listRet{'msg': '未登录', 'redirect': '/mgr/sign.html', 'ret': 302}
 
   PASS 
 
-* 列出客户-API-0102  -  2025-05-06 00:52:44
+* 列出客户-API-0102  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 
@@ -646,7 +582,7 @@ listRet{'msg': '未登录', 'redirect': '/mgr/sign.html', 'ret': 302}
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -660,7 +596,7 @@ Content-Length: 32
 
   PASS 
 
-* 列出客户-API-0103  -  2025-05-06 00:52:44
+* 列出客户-API-0103  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 
@@ -671,7 +607,7 @@ Content-Length: 32
 -------- HTTP response * begin -------
 400
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 35
 
 {"msg":"bad pagenum:hello","ret":2}
@@ -691,7 +627,7 @@ Traceback:
 AssertionError
 
 
-* 列出客户-API-0104  -  2025-05-06 00:52:44
+* 列出客户-API-0104  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 
@@ -702,7 +638,7 @@ AssertionError
 -------- HTTP response * begin -------
 400
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 36
 
 {"msg":"bad pagesize:hello","ret":2}
@@ -722,7 +658,7 @@ Traceback:
 AssertionError
 
 
-* 列出客户-API-0105  -  2025-05-06 00:52:44
+* 列出客户-API-0105  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 
@@ -733,7 +669,7 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -753,7 +689,7 @@ Traceback:
 AssertionError
 
 
-* 列出客户-API-0106  -  2025-05-06 00:52:44
+* 列出客户-API-0106  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 
@@ -764,7 +700,7 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -784,7 +720,7 @@ Traceback:
 AssertionError
 
 
-* 列出客户-API-0107  -  2025-05-06 00:52:44
+* 列出客户-API-0107  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 
@@ -795,7 +731,7 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -818,7 +754,7 @@ AssertionError
 
 >>> cases\blank_env\customerAPI\modifyCustomer.py
 
-* 修改客户-API-0201  -  2025-05-06 00:52:44
+* 修改客户-API-0201  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 
@@ -829,7 +765,7 @@ AssertionError
 -------- HTTP response * begin -------
 400
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 39
 
 {"msg":"customer id not exist","ret":2}
@@ -846,7 +782,7 @@ Content-Length: 39
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -866,17 +802,17 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 18
 
-{"id":781,"ret":0}
+{"id":800,"ret":0}
 -------- HTTP response * end -------
 
 
 
 >>> cases\blank_env\oneCustomer_env\delCustomer.py
 
-* 删除客户-API-0252  -  2025-05-06 00:52:44
+* 删除客户-API-0252  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 列出客户
@@ -884,21 +820,21 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":781,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":800,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 
--- 第 1 步 -- 删除客户：id为781 
+-- 第 1 步 -- 删除客户：id为800 
 
-删除客户：id=781
+删除客户：id=800
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -915,7 +851,7 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -932,17 +868,17 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:44 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 18
 
-{"id":782,"ret":0}
+{"id":801,"ret":0}
 -------- HTTP response * end -------
 
 
 
 >>> cases\blank_env\oneCustomer_env\modifyCustomer.py
 
-* 修改客户-API-0202  -  2025-05-06 00:52:45
+* 修改客户-API-0202  -  2025-05-06 14:29:43
 
   [ case execution steps ]
 
@@ -953,10 +889,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 修改客户
@@ -964,7 +900,7 @@ Content-Length: 143
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:43 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -981,10 +917,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 148
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"南京市桥西医院北路","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"南京市桥西医院北路","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 
@@ -998,14 +934,14 @@ Content-Length: 148
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
 
-* 修改客户-API-0203  -  2025-05-06 00:52:45
+* 修改客户-API-0203  -  2025-05-06 14:29:44
 
   [ case execution steps ]
 
@@ -1016,10 +952,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 修改客户
@@ -1027,7 +963,7 @@ Content-Length: 143
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -1044,10 +980,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13923567443"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13923567443"}],"total":1}
 -------- HTTP response * end -------
 
 
@@ -1061,14 +997,14 @@ Content-Length: 143
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
 
-* 修改客户-API-0204  -  2025-05-06 00:52:45
+* 修改客户-API-0204  -  2025-05-06 14:29:44
 
   [ case execution steps ]
 
@@ -1079,10 +1015,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 修改客户
@@ -1090,7 +1026,7 @@ Content-Length: 143
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -1107,10 +1043,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 139
 
-{"ret":0,"retlist":[{"address":"镇江市桃花坞123号","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"镇江市桃花坞123号","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 
@@ -1124,14 +1060,14 @@ Content-Length: 139
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
 
-* 修改客户-API-0205  -  2025-05-06 00:52:45
+* 修改客户-API-0205  -  2025-05-06 14:29:44
 
   [ case execution steps ]
 
@@ -1142,10 +1078,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 修改客户
@@ -1153,7 +1089,7 @@ Content-Length: 143
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -1170,10 +1106,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 138
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"镇江市中医院","phonenumber":"1362345887"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"镇江市中医院","phonenumber":"1362345887"}],"total":1}
 -------- HTTP response * end -------
 
 
@@ -1187,14 +1123,14 @@ Content-Length: 138
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
 
-* 修改客户-API-0206  -  2025-05-06 00:52:45
+* 修改客户-API-0206  -  2025-05-06 14:29:44
 
   [ case execution steps ]
 
@@ -1205,10 +1141,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 修改客户
@@ -1216,7 +1152,7 @@ Content-Length: 143
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -1233,10 +1169,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 135
 
-{"ret":0,"retlist":[{"address":"镇江市桃花坞666号","id":782,"name":"镇江市中医院","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"镇江市桃花坞666号","id":801,"name":"镇江市中医院","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 
@@ -1250,14 +1186,14 @@ Content-Length: 135
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
 
-* 修改客户-API-0207  -  2025-05-06 00:52:45
+* 修改客户-API-0207  -  2025-05-06 14:29:44
 
   [ case execution steps ]
 
@@ -1268,10 +1204,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 修改客户
@@ -1279,7 +1215,7 @@ Content-Length: 143
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -1296,10 +1232,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 138
 
-{"ret":0,"retlist":[{"address":"镇江市桃花坞666号","id":782,"name":"武汉市桥西医院1","phonenumber":"1275678433"}],"total":1}
+{"ret":0,"retlist":[{"address":"镇江市桃花坞666号","id":801,"name":"武汉市桥西医院1","phonenumber":"1275678433"}],"total":1}
 -------- HTTP response * end -------
 
 
@@ -1313,14 +1249,14 @@ Content-Length: 138
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
 
-* 修改客户-API-0208  -  2025-05-06 00:52:45
+* 修改客户-API-0208  -  2025-05-06 14:29:44
 
   [ case execution steps ]
 
@@ -1331,10 +1267,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 修改客户
@@ -1342,7 +1278,7 @@ Content-Length: 143
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -1359,10 +1295,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 134
 
-{"ret":0,"retlist":[{"address":"镇江市桃花坞666号","id":782,"name":"镇江市中医院","phonenumber":"1275678433"}],"total":1}
+{"ret":0,"retlist":[{"address":"镇江市桃花坞666号","id":801,"name":"镇江市中医院","phonenumber":"1275678433"}],"total":1}
 -------- HTTP response * end -------
 
 
@@ -1376,7 +1312,7 @@ Content-Length: 134
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -1392,10 +1328,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 18
 
-{"id":143,"ret":0}
+{"id":144,"ret":0}
 -------- HTTP response * end -------
 
 列出客户
@@ -1403,10 +1339,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 添加订单
@@ -1414,17 +1350,17 @@ Content-Length: 143
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 17
 
-{"id":49,"ret":0}
+{"id":50,"ret":0}
 -------- HTTP response * end -------
 
 
 
 >>> cases\blank_env\oneCustomer_env\oneCustomerOneMedicineOneOrder\delCustomer.py
 
-* 删除客户-API-0253  -  2025-05-06 00:52:45
+* 删除客户-API-0253  -  2025-05-06 14:29:44
 
   [ case execution steps ]
 
@@ -1435,18 +1371,18 @@ Content-Length: 17
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
-删除客户：id=782
+删除客户：id=801
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 72
 
 {"msg":"删除记录失败，或许需要先删除相关订单","ret":2}
@@ -1463,10 +1399,10 @@ Content-Length: 72
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":1}
 -------- HTTP response * end -------
 
 
@@ -1481,18 +1417,18 @@ Content-Length: 143
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 226
 
-{"ret":0,"retlist":[{"create_date":"2025-05-05T16:52:45Z","customer_name":"武汉市桥西医院1","customerid":782,"id":49,"medicinelist":"[{\"id\":143,\"name\":\"青霉素1\",\"amount\":\"5\"}]","name":"订单1"}],"total":1}
+{"ret":0,"retlist":[{"create_date":"2025-05-06T06:29:44Z","customer_name":"武汉市桥西医院1","customerid":801,"id":50,"medicinelist":"[{\"id\":144,\"name\":\"青霉素1\",\"amount\":\"5\"}]","name":"订单1"}],"total":1}
 -------- HTTP response * end -------
 
-删除订单：id=49
+删除订单：id=50
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -1504,18 +1440,18 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 112
 
-{"ret":0,"retlist":[{"desc":"青霉素 国字号1","id":143,"name":"青霉素1","sn":"099877883801"}],"total":1}
+{"ret":0,"retlist":[{"desc":"青霉素 国字号1","id":144,"name":"青霉素1","sn":"099877883801"}],"total":1}
 -------- HTTP response * end -------
 
-删除药品：id=143
+删除药品：id=144
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -1531,17 +1467,17 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 18
 
-{"id":783,"ret":0}
+{"id":802,"ret":0}
 -------- HTTP response * end -------
 
 
 
 >>> cases\blank_env\oneCustomer_env\twoCustomers_env\modifyCustomer.py
 
-* 修改客户-API-0209  -  2025-05-06 00:52:45
+* 修改客户-API-0209  -  2025-05-06 14:29:44
 
   [ case execution steps ]
 
@@ -1552,10 +1488,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 143
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路2","id":783,"name":"武汉市桥西医院2","phonenumber":"13345679902"}],"total":2}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路2","id":802,"name":"武汉市桥西医院2","phonenumber":"13345679902"}],"total":2}
 -------- HTTP response * end -------
 
 
@@ -1566,18 +1502,7 @@ Content-Length: 143
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
-Content-Length: 9
-
-{"ret":0}
--------- HTTP response * end -------
-
-修改客户
-
--------- HTTP response * begin -------
-200
-Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:44 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -1588,11 +1513,24 @@ Content-Length: 9
 
   FAIL    
 Traceback:
-  File "D:\tools\projects\autotest_bysms\cases\blank_env\oneCustomer_env\twoCustomers_env\modifyCustomer.py", line 32, in teststeps
+  File "D:\tools\projects\autotest_bysms\cases\blank_env\oneCustomer_env\twoCustomers_env\modifyCustomer.py", line 20, in teststeps
     CHECK_POINT('返回的ret值=1', addRet == expected)
   File "C:\Users\Administrator\AppData\Local\Programs\Python\Python312\Lib\site-packages\hytest\common.py", line 76, in CHECK_POINT
     raise AssertionError()
 AssertionError
+
+
+[ case teardown ] 修改客户-API-0209
+修改客户
+
+-------- HTTP response * begin -------
+200
+Content-Type: application/json; charset=utf-8
+Date: Tue, 06 May 2025 06:29:44 GMT
+Content-Length: 9
+
+{"ret":0}
+-------- HTTP response * end -------
 
 
 
@@ -1604,10 +1542,10 @@ AssertionError
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 18
 
-{"id":784,"ret":0}
+{"id":803,"ret":0}
 -------- HTTP response * end -------
 
 添加客户
@@ -1615,10 +1553,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:45 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 18
 
-{"id":785,"ret":0}
+{"id":804,"ret":0}
 -------- HTTP response * end -------
 
 添加客户
@@ -1626,10 +1564,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 18
 
-{"id":786,"ret":0}
+{"id":805,"ret":0}
 -------- HTTP response * end -------
 
 添加客户
@@ -1637,10 +1575,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 18
 
-{"id":787,"ret":0}
+{"id":806,"ret":0}
 -------- HTTP response * end -------
 
 添加客户
@@ -1648,10 +1586,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 18
 
-{"id":788,"ret":0}
+{"id":807,"ret":0}
 -------- HTTP response * end -------
 
 添加客户
@@ -1659,10 +1597,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 18
 
-{"id":789,"ret":0}
+{"id":808,"ret":0}
 -------- HTTP response * end -------
 
 添加客户
@@ -1670,10 +1608,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 18
 
-{"id":790,"ret":0}
+{"id":809,"ret":0}
 -------- HTTP response * end -------
 
 添加客户
@@ -1681,17 +1619,17 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 18
 
-{"id":791,"ret":0}
+{"id":810,"ret":0}
 -------- HTTP response * end -------
 
 
 
 >>> cases\blank_env\oneCustomer_env\twoCustomers_env\tenCustomers_env\addCustomer.py
 
-* 添加客户-API-0152  -  2025-05-06 00:52:46
+* 添加客户-API-0152  -  2025-05-06 14:29:45
 
   [ case execution steps ]
 
@@ -1702,10 +1640,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 18
 
-{"id":792,"ret":0}
+{"id":811,"ret":0}
 -------- HTTP response * end -------
 
 
@@ -1719,10 +1657,10 @@ Content-Length: 18
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 1264
 
-{"ret":0,"retlist":[{"address":"南京市桥东医院北路","id":792,"name":"南京市桥东医院","phonenumber":"12245789934"},{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":790,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":789,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":788,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":787,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":786,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":785,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":784,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":783,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":11}
+{"ret":0,"retlist":[{"address":"南京市桥东医院北路","id":811,"name":"南京市桥东医院","phonenumber":"12245789934"},{"address":"武汉市桥西医院北路10","id":810,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":809,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":808,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":807,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":806,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":805,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":804,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":803,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":802,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":11}
 -------- HTTP response * end -------
 
 
@@ -1731,12 +1669,12 @@ Content-Length: 1264
   PASS 
 
 [ case teardown ] 添加客户-API-0152
-删除客户：id=792
+删除客户：id=811
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -1746,7 +1684,7 @@ Content-Length: 9
 
 >>> cases\blank_env\oneCustomer_env\twoCustomers_env\tenCustomers_env\listCustomer.py
 
-* 列出客户-API-0108  -  2025-05-06 00:52:46
+* 列出客户-API-0108  -  2025-05-06 14:29:45
 
   [ case execution steps ]
 
@@ -1757,10 +1695,10 @@ Content-Length: 9
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 1154
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":790,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":789,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":788,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":787,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":786,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":785,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":784,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":783,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":10}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":810,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":809,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":808,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":807,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":806,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":805,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":804,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":803,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":802,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":10}
 -------- HTTP response * end -------
 
 返回状态码是200
@@ -1769,10 +1707,10 @@ Content-Length: 1154
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 146
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"}],"total":10}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":810,"name":"武汉市桥西医院10","phonenumber":"13345679910"}],"total":10}
 -------- HTTP response * end -------
 
 
@@ -1780,7 +1718,7 @@ Content-Length: 146
 
   PASS 
 
-* 列出客户-API-0109  -  2025-05-06 00:52:46
+* 列出客户-API-0109  -  2025-05-06 14:29:45
 
   [ case execution steps ]
 
@@ -1791,7 +1729,7 @@ Content-Length: 146
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 33
 
 {"ret":0,"retlist":[],"total":10}
@@ -1803,7 +1741,7 @@ Content-Length: 33
 
   PASS 
 
-* 列出客户-API-0110  -  2025-05-06 00:52:46
+* 列出客户-API-0110  -  2025-05-06 14:29:45
 
   [ case execution steps ]
 
@@ -1814,7 +1752,7 @@ Content-Length: 33
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 33
 
 {"ret":0,"retlist":[],"total":10}
@@ -1826,7 +1764,7 @@ Content-Length: 33
 
   PASS 
 
-* 列出客户-API-0111  -  2025-05-06 00:52:46
+* 列出客户-API-0111  -  2025-05-06 14:29:45
 
   [ case execution steps ]
 
@@ -1837,7 +1775,7 @@ Content-Length: 33
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 33
 
 {"ret":0,"retlist":[],"total":10}
@@ -1849,7 +1787,7 @@ Content-Length: 33
 
   PASS 
 
-* 列出客户-API-0112  -  2025-05-06 00:52:46
+* 列出客户-API-0112  -  2025-05-06 14:29:45
 
   [ case execution steps ]
 
@@ -1860,7 +1798,7 @@ Content-Length: 33
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -1872,7 +1810,7 @@ Content-Length: 32
 
   PASS 
 
-* 列出客户-API-0113  -  2025-05-06 00:52:46
+* 列出客户-API-0113  -  2025-05-06 14:29:45
 
   [ case execution steps ]
 
@@ -1883,10 +1821,10 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 1154
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":790,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":789,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":788,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":787,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":786,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":785,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":784,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":783,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":10}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":810,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":809,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":808,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":807,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":806,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":805,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":804,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":803,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":802,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":10}
 -------- HTTP response * end -------
 
 返回状态码是200
@@ -1895,10 +1833,10 @@ Content-Length: 1154
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 146
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"}],"total":10}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":810,"name":"武汉市桥西医院10","phonenumber":"13345679910"}],"total":10}
 -------- HTTP response * end -------
 
 
@@ -1917,7 +1855,7 @@ Content-Length: 146
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 32
 
 {"ret":0,"retlist":[],"total":0}
@@ -1929,117 +1867,117 @@ Content-Length: 32
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 1154
 
-{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":791,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":790,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":789,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":788,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":787,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":786,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":785,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":784,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":783,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":782,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":10}
+{"ret":0,"retlist":[{"address":"武汉市桥西医院北路10","id":810,"name":"武汉市桥西医院10","phonenumber":"13345679910"},{"address":"武汉市桥西医院北路9","id":809,"name":"武汉市桥西医院9","phonenumber":"13345679909"},{"address":"武汉市桥西医院北路8","id":808,"name":"武汉市桥西医院8","phonenumber":"13345679908"},{"address":"武汉市桥西医院北路7","id":807,"name":"武汉市桥西医院7","phonenumber":"13345679907"},{"address":"武汉市桥西医院北路6","id":806,"name":"武汉市桥西医院6","phonenumber":"13345679906"},{"address":"武汉市桥西医院北路5","id":805,"name":"武汉市桥西医院5","phonenumber":"13345679905"},{"address":"武汉市桥西医院北路4","id":804,"name":"武汉市桥西医院4","phonenumber":"13345679904"},{"address":"武汉市桥西医院北路3","id":803,"name":"武汉市桥西医院3","phonenumber":"13345679903"},{"address":"武汉市桥西医院北路2","id":802,"name":"武汉市桥西医院2","phonenumber":"13345679902"},{"address":"武汉市桥西医院北路1","id":801,"name":"武汉市桥西医院1","phonenumber":"13345679901"}],"total":10}
 -------- HTTP response * end -------
 
-删除客户：id=791
+删除客户：id=810
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
-删除客户：id=790
+删除客户：id=809
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
-删除客户：id=789
+删除客户：id=808
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
-删除客户：id=788
+删除客户：id=807
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
-删除客户：id=787
+删除客户：id=806
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
-删除客户：id=786
+删除客户：id=805
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
-删除客户：id=785
+删除客户：id=804
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
-删除客户：id=784
+删除客户：id=803
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
-删除客户：id=783
+删除客户：id=802
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 9
 
 {"ret":0}
 -------- HTTP response * end -------
 
-删除客户：id=782
+删除客户：id=801
 
 -------- HTTP response * begin -------
 200
 Content-Type: application/json; charset=utf-8
-Date: Mon, 05 May 2025 16:52:46 GMT
+Date: Tue, 06 May 2025 06:29:45 GMT
 Content-Length: 9
 
 {"ret":0}
@@ -2051,10 +1989,10 @@ Content-Length: 9
 [ suite teardown ] cases\
 
 
-  ========= 测试结束 : 20250506_005246 =========
+  ========= 测试结束 : 20250506_142945 =========
 
 
-  耗时    : 4.151 秒
+  耗时    : 4.077 秒
 
 
   预备执行用例数量 : 40
@@ -2063,9 +2001,9 @@ Content-Length: 9
 
   通过 : 27
 
-  失败 : 13
+  失败 : 11
 
-  异常 : 0
+  异常 : 2
 
   套件初始化失败 : 0
 

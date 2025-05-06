@@ -69,15 +69,16 @@ class Case_0154:
 
     def teststeps(self):
         STEP(1, '添加一个客户')
-        raw_body = '''
-               {
-                   "name": "武汉市桥西医院",
-                   "name": "武汉市桥西医院",
-                   "phonenumber": "13345679934",
-                   "address": "南京市鼓楼北路"
-               }
-               '''
-        r = apimgr.customer_add2(data=json.loads(raw_body))
+        bodyStr = '''{
+            "action":"add_customer",
+            "data":{
+                "name":"武汉市桥西医院",
+                "name":"武汉市桥西医院",
+                "phonenumber":"13345679934",
+                "address":"武汉市桥西医院北路"
+            }
+        }'''
+        r = apimgr.customer_add_json(data=bodyStr)
         addRet = r.json()
         expected = {
             "ret": 1,
@@ -134,15 +135,16 @@ class Case_0156:
 
     def teststeps(self):
         STEP(1, '添加一个客户')
-        raw_body = '''
-               {
-                   "name": "武汉市桥西医院",
-                   "phonenumber": "13345679934",
-                   "phonenumber": "13345679934",
-                   "address": "南京市鼓楼北路"
-               }
-               '''
-        r = apimgr.customer_add2(data=json.loads(raw_body))
+        bodyStr = '''{
+                    "action":"add_customer",
+                    "data":{
+                        "name":"武汉市桥西医院",
+                        "phonenumber":"13345679934",
+                        "phonenumber":"13345679934",
+                        "address":"武汉市桥西医院北路"
+                    }
+                }'''
+        r = apimgr.customer_add_json(data=bodyStr)
         addRet = r.json()
         expected = {
             "ret": 1,

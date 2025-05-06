@@ -1,14 +1,4 @@
-from lib.webapi import apimgr
-
-
-def getRetlist():
-    # 获取系统中客户信息
-    r = apimgr.customer_list(1, 1)
-    ret = r.json()
-    retlist = ret['retlist'][0]
-    print('retlist:', retlist)
-    # {'address': '武汉市桥西医院北路', 'id': 284, 'name': '武汉市桥西医院', 'phonenumber': '13345679934'}
-    return retlist
+from lib.webapi import apimgr, getRetlist
 
 
 # 套件初始化，只执行一次

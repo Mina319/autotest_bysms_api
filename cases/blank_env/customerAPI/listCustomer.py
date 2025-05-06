@@ -12,7 +12,7 @@ class Case_0101:
         r = apimgr.customer_list1(10, 1, headers=headers)
         # 验证返回状态码为302
         # CHECK_POINT('返回状态码是302', r.status_code == 302)
-        INFO(f'返回状态码是{r.status_code}')
+        INFO(f'返回状态码是{r.status_code}')  # 307
         # 验证返回体
         listRet = r.json()
         INFO(f'listRet{listRet}')
